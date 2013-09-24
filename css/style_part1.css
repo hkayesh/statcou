@@ -1,0 +1,150 @@
+/*
+=======================================================================
+	General Rules
+=======================================================================
+*/
+* {
+	padding:0px;
+	margin:0px;
+               z-index: 1;
+}
+body {
+	background:url(../images/bg.jpg) repeat-x top #fff;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	color:#747474;
+}
+a {
+	color:#666;
+	text-decoration:none;
+	outline:none;
+}
+a img {
+	border:none;
+}
+.clear {
+	clear:both;
+}
+.bold {
+	font-weight:bold;
+}
+.black {
+	color:black;
+}
+ul, li {
+	list-style-type:none;
+	list-style-image:none;
+}
+h1, h2, h3, h4, h5, h6 {
+	color:#0086b2!important;
+}
+h1 {
+	font-size:25px;
+	font-weight:normal;
+	text-transform:uppercase;
+}
+h2 {
+	font-size:20px;
+	font-weight:normal;
+}
+h3 {
+	font-size:18px;
+	font-weight:normal;
+}
+h4 {
+	font-size:16px;
+	font-weight:normal;
+}
+h5 {
+	font-size:14px;
+	font-weight:normal;
+}
+h6 {
+	font-size:12px;
+	font-weight:normal;
+}
+p {
+	line-height:18px;
+}
+.left {
+	float:left !important;
+}
+.right {
+	float:right !important;
+}
+.white {
+	color:#fff;
+}
+input {
+	font-size:11px;
+	border:0px;
+	color:#7f7f7f;
+}
+.itlc {
+	font-style:italic;
+}
+.colr {
+	color:#0086b2 !important;
+}
+/*
+=======================================================================
+	
+=======================================================================
+*/
+
+.nobdr {
+	border:none!important;
+}
+/*
+=======================================================================
+	Wrapper Section Rules
+=======================================================================
+*/
+#wrapper_sec {
+	width:960px;
+	margin:0px auto;
+}
+#bg {
+	background-image:url(../images/bubble.png);
+	background-position:top;
+	background-repeat:repeat-x;
+	width:100%;
+}
+#bottomsec {
+	width:100%;
+	background-image:url(../images/botmsecbg.png);
+	background-position:center top;
+	background-color:#070707;
+	background-repeat:repeat-x;
+	height:110px;
+}
+/*
+=======================================================================
+	MasterHead Rules
+=======================================================================
+*/
+#masterhead {
+	width:960px;
+	height:139px;
+	float:left;
+	padding-bottom:10px;
+}
+/*
+=======================================================================
+	Logo Rules
+=======================================================================
+*/
+.logo {
+	float:left;
+	padding:0px 0 0 0px;
+}
+/*
+=======================================================================
+	right header Rules
+=======================================================================
+*/
+
+.topright_sec {
+	float:right;
+	width:auto;
+}
