@@ -53,31 +53,31 @@ include_once 'includes/_header.php';
         </div>
         <div class="thumbdiv" id="tab1">
             <ul>
-                <li><a href="images/gallery/study_tour_2013/1.JPG" rel="galleryimg" class="galleryimg" title="Study Tour 2013" ><img class="galleryMini" src="images/gallery/study_tour_2013/1_thumb.JPG"  alt="" /></a></li>
-                <li><a href="images/gallery/study_tour_2013/2.JPG" rel="galleryimg" class="galleryimg" title="Study Tour 2013" ><img class="galleryMini" src="images/gallery/study_tour_2013/2_thumb.JPG"  alt="" /></a></li>
-                <li><a href="images/gallery/study_tour_2013/3.JPG" rel="galleryimg" class="galleryimg" title="Study Tour 2013" ><img class="galleryMini" src="images/gallery/study_tour_2013/3_thumb.JPG"  alt="" /></a></li>
-                <li><a href="images/gallery/study_tour_2013/4.JPG" rel="galleryimg" class="galleryimg" title="Study Tour 2013" ><img class="galleryMini" src="images/gallery/study_tour_2013/4_thumb.JPG"  alt="" /></a></li>
-                <li><a href="images/gallery/study_tour_2013/5.JPG" rel="galleryimg" class="galleryimg" title="Study Tour 2013" ><img class="galleryMini" src="images/gallery/study_tour_2013/5_thumb.JPG"  alt="" /></a></li>
-                <li><a href="images/gallery/study_tour_2013/6.JPG" rel="galleryimg" class="galleryimg" title="Study Tour 2013" ><img class="galleryMini" src="images/gallery/study_tour_2013/6_thumb.JPG"  alt="" /></a></li>
-                <li><a href="images/gallery/study_tour_2013/7.JPG" rel="galleryimg" class="galleryimg" title="Study Tour 2013" ><img class="galleryMini" src="images/gallery/study_tour_2013/7_thumb.JPG"  alt="" /></a></li>
-                <li><a href="images/gallery/study_tour_2013/8.JPG" rel="galleryimg" class="galleryimg" title="Study Tour 2013" ><img class="galleryMini" src="images/gallery/study_tour_2013/8_thumb.JPG"  alt="" /></a></li>
-                <li><a href="images/gallery/study_tour_2013/9.JPG" rel="galleryimg" class="galleryimg" title="Study Tour 2013" ><img class="galleryMini" src="images/gallery/study_tour_2013/9_thumb.JPG"  alt="" /></a></li>
-                <li><a href="images/gallery/study_tour_2013/10.JPG" rel="galleryimg" class="galleryimg" title="Study Tour 2013" ><img class="galleryMini" src="images/gallery/study_tour_2013/10_thumb.JPG"  alt="" /></a></li>
+                <li><a href="images/gallery/study_tour_2013/1.JPG" rel="galleryimg" class="galleryimg" title="Study Tour 2013" ><img class="galleryMini" src="images/gallery/study_tour_2013/1_thumb.jpg"  alt="" /></a></li>
+                <li><a href="images/gallery/study_tour_2013/2.JPG" rel="galleryimg" class="galleryimg" title="Study Tour 2013" ><img class="galleryMini" src="images/gallery/study_tour_2013/2_thumb.jpg"  alt="" /></a></li>
+                <li><a href="images/gallery/study_tour_2013/3.JPG" rel="galleryimg" class="galleryimg" title="Study Tour 2013" ><img class="galleryMini" src="images/gallery/study_tour_2013/3_thumb.jpg"  alt="" /></a></li>
+                <li><a href="images/gallery/study_tour_2013/4.JPG" rel="galleryimg" class="galleryimg" title="Study Tour 2013" ><img class="galleryMini" src="images/gallery/study_tour_2013/4_thumb.jpg"  alt="" /></a></li>
+                <li><a href="images/gallery/study_tour_2013/5.JPG" rel="galleryimg" class="galleryimg" title="Study Tour 2013" ><img class="galleryMini" src="images/gallery/study_tour_2013/5_thumb.jpg"  alt="" /></a></li>
+                <li><a href="images/gallery/study_tour_2013/6.JPG" rel="galleryimg" class="galleryimg" title="Study Tour 2013" ><img class="galleryMini" src="images/gallery/study_tour_2013/6_thumb.jpg"  alt="" /></a></li>
+                <li><a href="images/gallery/study_tour_2013/7.JPG" rel="galleryimg" class="galleryimg" title="Study Tour 2013" ><img class="galleryMini" src="images/gallery/study_tour_2013/7_thumb.jpg"  alt="" /></a></li>
+                <li><a href="images/gallery/study_tour_2013/8.JPG" rel="galleryimg" class="galleryimg" title="Study Tour 2013" ><img class="galleryMini" src="images/gallery/study_tour_2013/8_thumb.jpg"  alt="" /></a></li>
+                <li><a href="images/gallery/study_tour_2013/9.JPG" rel="galleryimg" class="galleryimg" title="Study Tour 2013" ><img class="galleryMini" src="images/gallery/study_tour_2013/9_thumb.jpg"  alt="" /></a></li>
+                <li><a href="images/gallery/study_tour_2013/10.JPG" rel="galleryimg" class="galleryimg" title="Study Tour 2013" ><img class="galleryMini" src="images/gallery/study_tour_2013/10_thumb.jpg"  alt="" /></a></li>
                 </ul>
             <div class="hdiv">&nbsp;</div>
-        </div>   
+        </div>
         <div class="thumbdiv" id="tab2" style="display: none">
             <ul>
-                <li><a href="images/gallery/workshop/1.JPG" rel="galleryimg" class="galleryimg" title="Workshop"><img  class="galleryMini" src="images/gallery/workshop/1_thumb.JPG"  alt="" /></a></li>
-                <li><a href="images/gallery/workshop/2.JPG" rel="galleryimg" class="galleryimg" title="Workshop"><img  class="galleryMini" src="images/gallery/workshop/2_thumb.JPG"  alt="" /></a></li>
-                <li><a href="images/gallery/workshop/3.JPG" rel="galleryimg" class="galleryimg" title="Workshop"><img  class="galleryMini" src="images/gallery/workshop/3_thumb.JPG"  alt="" /></a></li>
-                <li><a href="images/gallery/workshop/4.JPG" rel="galleryimg" class="galleryimg" title="Workshop"><img  class="galleryMini" src="images/gallery/workshop/4_thumb.JPG"  alt="" /></a></li>
-                <li><a href="images/gallery/workshop/5.JPG" rel="galleryimg" class="galleryimg" title="Workshop"><img  class="galleryMini" src="images/gallery/workshop/5_thumb.JPG"  alt="" /></a></li>
-                <li><a href="images/gallery/workshop/6.JPG" rel="galleryimg" class="galleryimg" title="Workshop"><img  class="galleryMini" src="images/gallery/workshop/6_thumb.JPG"  alt="" /></a></li>
-                <li><a href="images/gallery/workshop/7.JPG" rel="galleryimg" class="galleryimg" title="Workshop"><img  class="galleryMini" src="images/gallery/workshop/7_thumb.JPG"  alt="" /></a></li>
-                <li><a href="images/gallery/workshop/8.JPG" rel="galleryimg" class="galleryimg" title="Workshop"><img  class="galleryMini" src="images/gallery/workshop/8_thumb.JPG"  alt="" /></a></li>
-                <li><a href="images/gallery/workshop/9.JPG" rel="galleryimg" class="galleryimg" title="Workshop"><img  class="galleryMini" src="images/gallery/workshop/9_thumb.JPG"  alt="" /></a></li>
-                <li><a href="images/gallery/workshop/10.JPG" rel="galleryimg" class="galleryimg" title="Workshop"><img  class="galleryMini" src="images/gallery/workshop/10_thumb.JPG"  alt="" /></a></li>
+                <li><a href="images/gallery/workshop/1.JPG" rel="galleryimg" class="galleryimg" title="Workshop"><img  class="galleryMini" src="images/gallery/workshop/1_thumb.jpg"  alt="" /></a></li>
+                <li><a href="images/gallery/workshop/2.JPG" rel="galleryimg" class="galleryimg" title="Workshop"><img  class="galleryMini" src="images/gallery/workshop/2_thumb.jpg"  alt="" /></a></li>
+                <li><a href="images/gallery/workshop/3.JPG" rel="galleryimg" class="galleryimg" title="Workshop"><img  class="galleryMini" src="images/gallery/workshop/3_thumb.jpg"  alt="" /></a></li>
+                <li><a href="images/gallery/workshop/4.JPG" rel="galleryimg" class="galleryimg" title="Workshop"><img  class="galleryMini" src="images/gallery/workshop/4_thumb.jpg"  alt="" /></a></li>
+                <li><a href="images/gallery/workshop/5.JPG" rel="galleryimg" class="galleryimg" title="Workshop"><img  class="galleryMini" src="images/gallery/workshop/5_thumb.jpg"  alt="" /></a></li>
+                <li><a href="images/gallery/workshop/6.JPG" rel="galleryimg" class="galleryimg" title="Workshop"><img  class="galleryMini" src="images/gallery/workshop/6_thumb.jpg"  alt="" /></a></li>
+                <li><a href="images/gallery/workshop/7.JPG" rel="galleryimg" class="galleryimg" title="Workshop"><img  class="galleryMini" src="images/gallery/workshop/7_thumb.jpg"  alt="" /></a></li>
+                <li><a href="images/gallery/workshop/8.JPG" rel="galleryimg" class="galleryimg" title="Workshop"><img  class="galleryMini" src="images/gallery/workshop/8_thumb.jpg"  alt="" /></a></li>
+                <li><a href="images/gallery/workshop/9.JPG" rel="galleryimg" class="galleryimg" title="Workshop"><img  class="galleryMini" src="images/gallery/workshop/9_thumb.jpg"  alt="" /></a></li>
+                <li><a href="images/gallery/workshop/10.JPG" rel="galleryimg" class="galleryimg" title="Workshop"><img  class="galleryMini" src="images/gallery/workshop/10_thumb.jpg"  alt="" /></a></li>
             </ul>
             <div class="hdiv">&nbsp;</div>
         </div>       
