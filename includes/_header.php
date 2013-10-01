@@ -101,8 +101,8 @@
                                 <li><a href="noContent.php">Facilities</a> 
                                     <!-- Sub Menu level 1 -->    
                                     <ul>
-                                        <li><a href="noContent.php">Seminar Library</a></li>
-                                        <li><a style="border: none" href="noContent.php">Computer Lab</a></li>
+                                        <li><a href="seminar.php">Seminar Library</a></li>
+                                        <li><a style="border: none" href="computer_lab.php">Computer Lab</a></li>
                                     </ul>                                
                                 </li>
                                 <li><a href="noContent.php">Research</a></li>
