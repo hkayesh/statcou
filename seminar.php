@@ -1,9 +1,9 @@
 <?php include_once 'includes/_header.php'; ?>
 <script type="text/javascript">
     $(document).ready(function() {
-        document.title = 'Faculty | Statistics Dept. of COU';
+        document.title = 'Facilities | Statistics Dept. of COU';
         $( ".selected" ).attr( "class", "" );
-        $("a:contains('Faculty')").attr("class", "selected");
+        $("a:contains('Facilities')").attr("class", "selected");
     });
 </script>
 <!-- Content Seciton -->
@@ -21,7 +21,11 @@
         <!-- Content Heading -->
         <div id="content2">
             <h2 class="pad8">Seminar Library</h2>
-
+            <p>The seminar library has ample of academic and non-academic books on various interests. Students are allowed to
+                study and borrow books from the library. There are thousand of books already available and more books are
+                about to be added in the list. There are many magazines and many national and international dailies are
+                also available in seminar. An ideal environment for individual and group study is provided here in the seminar
+                room of department.</p>
         </div>
         <div class="clear"></div>
     </div>

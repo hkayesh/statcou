@@ -59,7 +59,7 @@
                     <div class="clear"></div>
                 </li>
                 <li>
-                    <div class="thumb"><img src="images/default.png"  alt="" /></div>
+                    <div class="thumb"><img src="images/dulal_chandra.jpg"  alt="" /></div>
                     <div class="description">
                         <h6><a href="cv/Md_Mijanur_Rahman.pdf" class="colr" target="_blank">Dulal Chandra Nandi</a></h6>
                         <p>
@@ -77,18 +77,18 @@
                     <div class="clear"></div>
                 </li>
                 <li>
-                    <div class="thumb"><img src="images/default.png"  alt="" /></div>
+                    <div class="thumb"><img src="images/addeb.jpg"  alt="" /></div>
                     <div class="description">
                         <h6><a href="cv/adeeb_salman_chowdury.pdf" class="colr" target="_blank">J. M. Adeeb Salman Chowdury</a></h6>
                         <p>Lecturer<br>
                         MS (CU)<br>
                         <b>Area of interest:</b> Econometrics, Design of experiment, Statistical Inference, Biostatistics, Datamining, Time Series, Quality Control, Environment Statistics Demography<br>
-                        <b>Contect:</b> Email: mijancoubd@gmail.com Mobile: 88 01719 415 961
+                        <b>Contect:</b> Email: adeeb_cu@yahoo.com Mobile: 88 01719 415 961
                         </p>
                         <div class="clear"></div>
                         <div class="info">
                             <span class="lastupdte"> Last Update by:<i>Tue, 26/01/11</i></span>  
-                            <a class="moreinfo" href="cv/Md_Mijanur_Rahman.pdf" target="_blank">:: Moreinfo</a>
+                            <a class="moreinfo" href="cv/adeeb_salman_chowdury.pdf" target="_blank">:: Moreinfo</a>
                         </div>
                     </div>
                     <div class="clear"></div>

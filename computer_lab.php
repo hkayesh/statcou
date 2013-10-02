@@ -1,9 +1,9 @@
 <?php include_once 'includes/_header.php'; ?>
 <script type="text/javascript">
     $(document).ready(function() {
-        document.title = 'Faculty | Statistics Dept. of COU';
+        document.title = 'Facilities | Statistics Dept. of COU';
         $( ".selected" ).attr( "class", "" );
-        $("a:contains('Faculty')").attr("class", "selected");
+        $("a:contains('Facilities')").attr("class", "selected");
     });
 </script>
 <!-- Content Seciton -->
@@ -21,7 +21,11 @@
         <!-- Content Heading -->
         <div id="content2">
             <h2 class="pad8">Computer Lab</h2>
+            <p>The department has a fully furnished computer lab that includes Windows and Linux systems, laser printers, a wide variety of current software, and high-speed connections to the Internet.
 
+                Additional resources available in the computer lab are flatbed scanners; audio, video, and image editing;and web and print publishing. The statistical softwares like R, STATA, SPSS etc. are preloaded in the computers. The computer lab is also designed to increase students' group collaboration.
+
+                Wireless service is available in the computer lab. </p>
         </div>
         <div class="clear"></div>
     </div>
