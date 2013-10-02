@@ -46,23 +46,23 @@
                 <table style="text-align: left" id="info_table">
                     <tr>
                         <td style="width: 25%">Established</td>
-                        <td>2004 </td>
+                        <td>2011 </td>
                     </tr>
                     <tr>
                         <td>Number of Academic Staff</td>
-                        <td>Lab equipment tender notice </td>
+                        <td>5 (Five) </td>
                     </tr>
                     <tr>
                         <td>Number of Non-academic Staff</td>
-                        <td>Lab equipment tender notice lab equipment tender notice lab equipment tender notice lab equipment tender notice lab equipment tender notice </td>
+                        <td>0 (Zero)</td>
                     </tr>
                     <tr>
                         <td>Degree Offered</td>
-                        <td>Lab equipment tender notice </td>
+                        <td>Under graduate and Post Graduate</td>
                     </tr>
                     <tr>
                         <td>Number of Students</td>
-                        <td>Lab equipment tender notice lab equipment tender notice lab equipment tender notice lab equipment tender notice lab equipment tender notice </td>
+                        <td>100 (One Hundred)</td>
                     </tr>
                     <tr>
                         <td>Research Scope</td>
@@ -74,11 +74,11 @@
                     </tr>
                     <tr>
                         <td>Collaboration program with</td>
-                        <td>Lab equipment tender notice lab equipment tender notice lab equipment tender notice lab equipment tender notice lab equipment tender notice </td>
+                        <td>Not yet </td>
                     </tr>
                     <tr>
                         <td>Research Link program with</td>
-                        <td>Lab equipment tender notice lab equipment tender notice lab equipment tender notice lab equipment tender notice lab equipment tender notice </td>
+                        <td>Higher Education and Quality Enhancement Project (HEQEP) </td>
                     </tr>
                     <tr>
                         <td>Contact Information</td>

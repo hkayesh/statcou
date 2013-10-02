@@ -1,4 +1,4 @@
-<!DOCTYPE html">
+<DOCTYPE html">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -98,11 +98,11 @@
                                     </ul>			
                                 </li>                                
                                 <li><a href="faculty.php">Faculty</a></li>
-                                <li><a href="noContent.php">Facilities</a> 
+                                <li><a href="seminar.php">Facilities</a>
                                     <!-- Sub Menu level 1 -->    
                                     <ul>
-                                        <li><a href="noContent.php">Seminar Library</a></li>
-                                        <li><a style="border: none" href="noContent.php">Computer Lab</a></li>
+                                        <li><a href="seminar.php">Seminar Library</a></li>
+                                        <li><a style="border: none" href="computer_lab.php">Computer Lab</a></li>
                                     </ul>                                
                                 </li>
                                 <li><a href="noContent.php">Research</a></li>

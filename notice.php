@@ -31,86 +31,26 @@ include_once 'includes/_db.php';
                         <th class="second_column">Description</th>
                         <th style="width: 13%">Link</th>
                     </tr>
-         <?php 
-         ////////////////////////////// *Fetch data from database*//////////////////////////////
-         $query =  "SELECT *
-                        FROM `notices`
-                        WHERE `status` = '1'
-                        ORDER BY `created_at` ASC";
-         
-         $notices = mysql_query($query);
-         
-         while ($notice = mysql_fetch_array($notices)) {
-         ?>    
-             <tr>
-                <td><?php echo $notice['created_at']?></td>
-                <td class="second_column"><?php echo $notice['description']?></td>
-                <td><a href="<?php echo $notice['file_path']?>" target="_blank">Download</a></td>
-            </tr>
-         <?php
-         }
-         ?>   
-                    
-                    <tr>
-                        <td>10-08-13</td>
-                        <td class="second_column">Lab equipment tender notice</td>
-                        <td><a href="#">Download</a></td>
-                    </tr>
-                    <tr>
-                        <td>10-08-13</td>
-                        <td class="second_column">Lab equipment tender notice </td>
-                        <td><a href="#">Download</a></td>
-                    </tr>
-                    <tr>
-                        <td>10-08-13</td>
-                        <td class="second_column">Lab equipment tender notice lab equipment tender notice lab equipment tender notice lab equipment tender notice lab equipment tender notice </td>
-                        <td><a href="#">Download</a></td>
-                    </tr>
-                    <tr>
-                        <td>10-08-13</td>
-                        <td class="second_column">Lab equipment tender notice </td>
-                        <td><a href="#">Download</a></td>
-                    </tr>
-                    <tr>
-                        <td>10-08-13</td>
-                        <td class="second_column">Lab equipment tender notice lab equipment tender notice lab equipment tender notice lab equipment tender notice lab equipment tender notice </td>
-                        <td><a href="#">Download</a></td>
-                    </tr>
-                    <tr class="last_row">
-                        <td>10-08-13</td>
-                        <td class="second_column">Lab equipment tender notice</td>
-                        <td><a href="#">Download</a></td>
-                    </tr>
+                     <?php
+                     ////////////////////////////// *Fetch data from database*//////////////////////////////
+                     $query =  "SELECT *
+                                    FROM `notices`
+                                    WHERE `status` = '1'
+                                    ORDER BY `created_at` ASC";
+                     $notices = mysql_query($query);
+                     while ($notice = mysql_fetch_array($notices)) {
+                         $dateTime = new DateTime($notice['created_at']);
+                         $created_at = $dateTime->format('d-m-Y');
+                     ?>
+                         <tr>
+                            <td><?php echo $created_at?></td>
+                            <td class="second_column"><?php echo $notice['description']?></td>
+                            <td><a href="<?php echo $notice['file_path']?>" target="_blank">Download</a></td>
+                        </tr>
+                     <?php
+                     }
+                     ?>
                 </table>
-                <!--<ul class="listheading">
-                    <li class="notice_name colr" >Date</li>
-                    <li class="notice_description colr">Description</li>
-                </ul>
-                <ul class="courselisting">
-                    <li class="notice_name">10-08-13 </li>
-                    <li class="notice_description"><a href="courses/111.pdf" class="colr" target="_blank">Basic Statistics-I Basic Statistics-I Basic Statistics-I Basic Statistics-I Basic Statistics-I Basic Statistics-I Basic Statistics-I Basic Statistics-I Basic Statistics-I Basic Statistics-I</a></li>
-
-                </ul>
-                <ul class="courselisting">
-                    <li class="notice_name">Stat-112</li>
-                    <li class="notice_description"><a href="courses/112.pdf" class="colr" target="_blank">Elementary Probability-I</a></li>
-                </ul>
-                <ul class="courselisting">
-                    <li class="notice_name">Stat-113</li>
-                    <li class="notice_description"><a href="courses/113.pdf" class="colr" target="_blank">Linear Algebra</a></li>
-                </ul>
-                <ul class="courselisting">
-                    <li class="notice_name">Stat-114</li>
-                    <li class="notice_description"><a href="courses/114.pdf" class="colr" target="_blank">Calculus</a></li>
-                </ul>
-                <ul class="courselisting">
-                    <li class="notice_name">Stat-115</li>
-                    <li class="notice_description"><a href="courses/115.pdf" class="colr" target="_blank">Principles of Economics-I</a></li>
-                </ul>      
-                <ul class="courselisting">
-                    <li class="notice_name">Stat-116</li>
-                    <li class="notice_description"><a href="courses/116.pdf" class="colr" target="_blank">Statistical Data Analysis-I</a></li>
-                </ul>-->     
                 <div class="clear"></div>
             </div>
         </div>
