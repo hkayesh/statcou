@@ -73,7 +73,7 @@
                     <li class="coursename"><a href="courses/111.pdf" class="colr" target="_blank">Basic Statistics-I</a></li>
                     <li class="time">3</li>
                     <li class="location">100</li>
-                    <li class="instructor">Pablo Montagnes</li>
+                    <li class="instructor">Major</li>
 
                 </ul>
                 <ul class="courselisting">
@@ -81,35 +81,35 @@
                     <li class="coursename"><a href="courses/112.pdf" class="colr" target="_blank">Elementary Probability-I</a></li>
                     <li class="time">2</li>
                     <li class="location">50</li>
-                    <li class="instructor">Thomas Wright</li>
+                    <li class="instructor">Major</li>
                 </ul>
                 <ul class="courselisting">
                     <li class="code">Stat-113</li>
                     <li class="coursename"><a href="courses/113.pdf" class="colr" target="_blank">Linear Algebra</a></li>
                     <li class="time">3</li>
                     <li class="location">100</li>
-                    <li class="instructor">Susan Mayer</li>
+                    <li class="instructor">Non Major</li>
                 </ul>
                 <ul class="courselisting">
                     <li class="code">Stat-114</li>
                     <li class="coursename"><a href="courses/114.pdf" class="colr" target="_blank">Calculus</a></li>
                     <li class="time">3</li>
                     <li class="location">100</li>
-                    <li class="instructor">Matt Demon</li>
+                    <li class="instructor">Non Major</li>
                 </ul>
                 <ul class="courselisting">
                     <li class="code">Stat-115</li>
                     <li class="coursename"><a href="courses/115.pdf" class="colr" target="_blank">Principles of Economics-I</a></li>
                     <li class="time">2</li>
                     <li class="location">50</li>
-                    <li class="instructor">Pablo Montagnes</li>
+                    <li class="instructor">Non Major</li>
                 </ul>      
                 <ul class="courselisting">
                     <li class="code">Stat-116</li>
                     <li class="coursename"><a href="courses/116.pdf" class="colr" target="_blank">Statistical Data Analysis-I</a></li>
                     <li class="time">2</li>
                     <li class="location">50</li>
-                    <li class="instructor">Matt Demon</li>
+                    <li class="instructor">Major</li>
                 </ul>
                 <ul class="courselisting">
                     <li class="code">-</li>
@@ -145,7 +145,7 @@
                     <li class="coursename"><a href="courses/121.pdf" class="colr" target="_blank">Basic Statistics-II</a></li>
                     <li class="time">2</li>
                     <li class="location">50</li>
-                    <li class="instructor">Pablo Montagnes</li>
+                    <li class="instructor">Major</li>
 
                 </ul>
                 <ul class="courselisting">
@@ -153,35 +153,35 @@
                     <li class="coursename"><a href="courses/122.pdf" class="colr" target="_blank">Elementary Probability-II</a></li>
                     <li class="time">2</li>
                     <li class="location">50</li>
-                    <li class="instructor">Thomas Wright</li>
+                    <li class="instructor">Major</li>
                 </ul>
                 <ul class="courselisting">
                     <li class="code">Stat-123</li>
                     <li class="coursename"><a href="courses/123.pdf" class="colr" target="_blank">Algebra and Analytical Geometry</a></li>
                     <li class="time">3</li>
                     <li class="location">100</li>
-                    <li class="instructor">Susan Mayer</li>
+                    <li class="instructor">Non Major</li>
                 </ul>
                 <ul class="courselisting">
                     <li class="code">Stat-124</li>
                     <li class="coursename"><a href="courses/124.pdf" class="colr" target="_blank">Introduction to Computer and Computer Programming</a></li>
                     <li class="time">3</li>
                     <li class="location">100</li>
-                    <li class="instructor">Matt Demon</li>
+                    <li class="instructor">Non Major</li>
                 </ul>
                 <ul class="courselisting">
                     <li class="code">Stat-125</li>
                     <li class="coursename"><a href="courses/125.pdf" class="colr" target="_blank">Principles of Economics-II</a></li>
                     <li class="time">2</li>
                     <li class="location">50</li>
-                    <li class="instructor">Pablo Montagnes</li>
+                    <li class="instructor">Non Major</li>
                 </ul>      
                 <ul class="courselisting">
                     <li class="code">Stat-126</li>
                     <li class="coursename"><a href="courses/126.pdf" class="colr" target="_blank">Statistical Data Analysis-II</a></li>
                     <li class="time">2</li>
                     <li class="location">50</li>
-                    <li class="instructor">Matt Demon</li>
+                    <li class="instructor">Major</li>
                 </ul>      
                 <ul class="courselisting">
                     <li class="code">-</li>
@@ -224,7 +224,7 @@
                     <li class="coursename"><a href="courses/211.pdf" class="colr" target="_blank">Probability Distribution</a></li>
                     <li class="time">3</li>
                     <li class="location">100</li>
-                    <li class="instructor">Pablo Montagnes</li>
+                    <li class="instructor">Major</li>
 
                 </ul>
                 <ul class="courselisting">
@@ -232,35 +232,35 @@
                     <li class="coursename"><a href="courses/212.pdf" class="colr" target="_blank">Sampling Technique</a></li>
                     <li class="time">3</li>
                     <li class="location">100</li>
-                    <li class="instructor">Thomas Wright</li>
+                    <li class="instructor">Major</li>
                 </ul>
                 <ul class="courselisting">
                     <li class="code">Stat-213</li>
                     <li class="coursename"><a href="courses/213.pdf" class="colr" target="_blank">Demography</a></li>
                     <li class="time">3</li>
                     <li class="location">100</li>
-                    <li class="instructor">Susan Mayer</li>
+                    <li class="instructor">Major</li>
                 </ul>
                 <ul class="courselisting">
                     <li class="code">Stat-214</li>
                     <li class="coursename"><a href="courses/214.pdf" class="colr" target="_blank">Advance Calculus and Differential Equations</a></li>
                     <li class="time">3</li>
                     <li class="location">100</li>
-                    <li class="instructor">Matt Demon</li>
+                    <li class="instructor">Non Major</li>
                 </ul>
                 <ul class="courselisting">
                     <li class="code">Stat-215</li>
                     <li class="coursename"><a href="courses/215.pdf" class="colr" target="_blank">Numerical Analysis</a></li>
                     <li class="time">2</li>
                     <li class="location">50</li>
-                    <li class="instructor">Pablo Montagnes</li>
+                    <li class="instructor">Major</li>
                 </ul>      
                 <ul class="courselisting">
                     <li class="code">Stat-216</li>
                     <li class="coursename"><a href="courses/216.pdf" class="colr" target="_blank">Statistical Data Analysis III</a></li>
                     <li class="time">2</li>
                     <li class="location">50</li>
-                    <li class="instructor">Matt Demon</li>
+                    <li class="instructor">Major</li>
                 </ul> 
                 <ul class="courselisting">
                     <li class="code">-</li>
@@ -296,7 +296,7 @@
                     <li class="coursename"><a href="courses/221.pdf" class="colr" target="_blank">Sampling Distribution</a></li>
                     <li class="time">3</li>
                     <li class="location">100</li>
-                    <li class="instructor">Pablo Montagnes</li>
+                    <li class="instructor">Major</li>
 
                 </ul>
                 <ul class="courselisting">
@@ -304,35 +304,35 @@
                     <li class="coursename"><a href="courses/222.pdf" class="colr" target="_blank">Regression Analysis</a></li>
                     <li class="time">3</li>
                     <li class="location">100</li>
-                    <li class="instructor">Thomas Wright</li>
+                    <li class="instructor">Major</li>
                 </ul>
                 <ul class="courselisting">
                     <li class="code">Stat-223</li>
                     <li class="coursename"><a href="courses/223.pdf" class="colr" target="_blank">Data Processing using Software I</a></li>
                     <li class="time">2</li>
                     <li class="location">50</li>
-                    <li class="instructor">Susan Mayer</li>
+                    <li class="instructor">Major</li>
                 </ul>
                 <ul class="courselisting">
                     <li class="code">Stat-224</li>
                     <li class="coursename"><a href="courses/224.pdf" class="colr" target="_blank">Statistical Quality Control and Index Number</a></li>
                     <li class="time">2</li>
                     <li class="location">50</li>
-                    <li class="instructor">Matt Demon</li>
+                    <li class="instructor">Major</li>
                 </ul>
                 <ul class="courselisting">
                     <li class="code">Stat-225</li>
                     <li class="coursename"><a href="courses/225.pdf" class="colr" target="_blank">Real Analysis and Complex Variable</a></li>
                     <li class="time">2</li>
                     <li class="location">50</li>
-                    <li class="instructor">Pablo Montagnes</li>
+                    <li class="instructor">Non Major</li>
                 </ul>      
                 <ul class="courselisting">
                     <li class="code">Stat-226</li>
                     <li class="coursename"><a href="courses/226.pdf" class="colr" target="_blank">Statistical Data Analysis IV</a></li>
                     <li class="time">2</li>
                     <li class="location">50</li>
-                    <li class="instructor">Matt Demon</li>
+                    <li class="instructor">Major</li>
                 </ul>      
                 <ul class="courselisting">
                     <li class="code">-</li>
@@ -375,7 +375,7 @@
                     <li class="coursename"><a href="courses/311.pdf" class="colr" target="_blank">Statistical Inference I</a></li>
                     <li class="time">3</li>
                     <li class="location">100</li>
-                    <li class="instructor">Pablo Montagnes</li>
+                    <li class="instructor">Major</li>
 
                 </ul>
                 <ul class="courselisting">
@@ -383,42 +383,42 @@
                     <li class="coursename"><a href="courses/312.pdf" class="colr" target="_blank">Analysis of Variance</a></li>
                     <li class="time">2</li>
                     <li class="location">50</li>
-                    <li class="instructor">Thomas Wright</li>
+                    <li class="instructor">Major</li>
                 </ul>
                 <ul class="courselisting">
                     <li class="code">Stat-313</li>
                     <li class="coursename"><a href="courses/313.pdf" class="colr" target="_blank">Time Series Analysis</a></li>
                     <li class="time">3</li>
                     <li class="location">100</li>
-                    <li class="instructor">Susan Mayer</li>
+                    <li class="instructor">Major</li>
                 </ul>
                 <ul class="courselisting">
                     <li class="code">Stat-314</li>
                     <li class="coursename"><a href="courses/314.pdf" class="colr" target="_blank">Econometrics I</a></li>
                     <li class="time">3</li>
                     <li class="location">100</li>
-                    <li class="instructor">Matt Demon</li>
+                    <li class="instructor">Major</li>
                 </ul>
                 <ul class="courselisting">
                     <li class="code">Stat-315</li>
                     <li class="coursename"><a href="courses/315.pdf" class="colr" target="_blank">Data Processing using Software II</a></li>
                     <li class="time">2</li>
                     <li class="location">50</li>
-                    <li class="instructor">Pablo Montagnes</li>
+                    <li class="instructor">Major</li>
                 </ul>      
                 <ul class="courselisting">
                     <li class="code">Stat-316</li>
                     <li class="coursename"><a href="courses/316.pdf" class="colr" target="_blank">Statistical Data Analysis V</a></li>
                     <li class="time">2</li>
                     <li class="location">50</li>
-                    <li class="instructor">Matt Demon</li>
+                    <li class="instructor">Major</li>
                 </ul> 
                 <ul class="courselisting">
                     <li class="code">Stat-317</li>
                     <li class="coursename"><a href="courses/317.pdf" class="colr" target="_blank">Statistical Data Analysis VI</a></li>
                     <li class="time">2</li>
                     <li class="location">50</li>
-                    <li class="instructor">Matt Demon</li>
+                    <li class="instructor">Major</li>
                 </ul> 
                 <ul class="courselisting">
                     <li class="code">-</li>
@@ -454,7 +454,7 @@
                     <li class="coursename"><a href="courses/321.pdf" class="colr" target="_blank">Stochastic Process</a></li>
                     <li class="time">3</li>
                     <li class="location">100</li>
-                    <li class="instructor">Pablo Montagnes</li>
+                    <li class="instructor">Major</li>
 
                 </ul>
                 <ul class="courselisting">
@@ -462,42 +462,42 @@
                     <li class="coursename"><a href="courses/322.pdf" class="colr" target="_blank">Probability and Measure Theory</a></li>
                     <li class="time">2</li>
                     <li class="location">50</li>
-                    <li class="instructor">Thomas Wright</li>
+                    <li class="instructor">Major</li>
                 </ul>
                 <ul class="courselisting">
                     <li class="code">Stat-323</li>
                     <li class="coursename"><a href="courses/323.pdf" class="colr" target="_blank">Order Statistics and Non-Parametric Methods</a></li>
                     <li class="time">3</li>
                     <li class="location">100</li>
-                    <li class="instructor">Susan Mayer</li>
+                    <li class="instructor">Major</li>
                 </ul>
                 <ul class="courselisting">
                     <li class="code">Stat-324</li>
                     <li class="coursename"><a href="courses/324.pdf" class="colr" target="_blank">Operation Research</a></li>
                     <li class="time">2</li>
                     <li class="location">50</li>
-                    <li class="instructor">Matt Demon</li>
+                    <li class="instructor">Major</li>
                 </ul>
                 <ul class="courselisting">
                     <li class="code">Stat-325</li>
                     <li class="coursename"><a href="courses/325.pdf" class="colr" target="_blank">Epidemiology</a></li>
                     <li class="time">2</li>
                     <li class="location">50</li>
-                    <li class="instructor">Pablo Montagnes</li>
+                    <li class="instructor">Major</li>
                 </ul>      
                 <ul class="courselisting">
                     <li class="code">Stat-326</li>
                     <li class="coursename"><a href="courses/326.pdf" class="colr" target="_blank">Statistical Data Analysis VII</a></li>
                     <li class="time">2</li>
                     <li class="location">50</li>
-                    <li class="instructor">Matt Demon</li>
+                    <li class="instructor">Major</li>
                 </ul>      
                 <ul class="courselisting">
                     <li class="code">Stat-327</li>
                     <li class="coursename"><a href="courses/327.pdf" class="colr" target="_blank">Statistical Data Analysis VIII</a></li>
                     <li class="time">2</li>
                     <li class="location">50</li>
-                    <li class="instructor">Matt Demon</li>
+                    <li class="instructor">Major</li>
                 </ul>      
                 <ul class="courselisting">
                     <li class="code">-</li>
@@ -540,7 +540,7 @@
                     <li class="coursename"><a href="courses/411.pdf" class="colr" target="_blank">Statistical Inference II</a></li>
                     <li class="time">3</li>
                     <li class="location">100</li>
-                    <li class="instructor">Pablo Montagnes</li>
+                    <li class="instructor">Major</li>
 
                 </ul>
                 <ul class="courselisting">
@@ -548,35 +548,35 @@
                     <li class="coursename"><a href="courses/412.pdf" class="colr" target="_blank">Multivariate Analysis </a></li>
                     <li class="time">3</li>
                     <li class="location">100</li>
-                    <li class="instructor">Thomas Wright</li>
+                    <li class="instructor">Major</li>
                 </ul>
                 <ul class="courselisting">
                     <li class="code">Stat-413</li>
                     <li class="coursename"><a href="courses/413.pdf" class="colr" target="_blank">Bio-Statistics</a></li>
                     <li class="time">3</li>
                     <li class="location">100</li>
-                    <li class="instructor">Susan Mayer</li>
+                    <li class="instructor">Major</li>
                 </ul>
                 <ul class="courselisting">
                     <li class="code">Stat-414</li>
                     <li class="coursename"><a href="courses/414.pdf" class="colr" target="_blank">Research Methodology</a></li>
                     <li class="time">3</li>
                     <li class="location">100</li>
-                    <li class="instructor">Matt Demon</li>
+                    <li class="instructor">Major</li>
                 </ul>
                 <ul class="courselisting">
                     <li class="code">Stat-415</li>
                     <li class="coursename"><a href="courses/415.pdf" class="colr" target="_blank">Environmental Statistics</a></li>
                     <li class="time">2</li>
                     <li class="location">50</li>
-                    <li class="instructor">Pablo Montagnes</li>
+                    <li class="instructor">Major</li>
                 </ul>      
                 <ul class="courselisting">
                     <li class="code">Stat-416</li>
                     <li class="coursename"><a href="courses/416.pdf" class="colr" target="_blank">Statistical Data Analysis IX</a></li>
                     <li class="time">2</li>
                     <li class="location">50</li>
-                    <li class="instructor">Matt Demon</li>
+                    <li class="instructor">Major</li>
                 </ul> 
                 <ul class="courselisting">
                     <li class="code">-</li>
@@ -612,7 +612,7 @@
                     <li class="coursename"><a href="courses/421.pdf" class="colr" target="_blank">Experimental Design</a></li>
                     <li class="time">3</li>
                     <li class="location">100</li>
-                    <li class="instructor">Pablo Montagnes</li>
+                    <li class="instructor">Major</li>
 
                 </ul>
                 <ul class="courselisting">
@@ -620,42 +620,42 @@
                     <li class="coursename"><a href="courses/422.pdf" class="colr" target="_blank">Sample Survey</a></li>
                     <li class="time">3</li>
                     <li class="location">100</li>
-                    <li class="instructor">Thomas Wright</li>
+                    <li class="instructor">Major</li>
                 </ul>
                 <ul class="courselisting">
                     <li class="code">Stat-423</li>
                     <li class="coursename"><a href="courses/423.pdf" class="colr" target="_blank">Econometrics II</a></li>
                     <li class="time">2</li>
                     <li class="location">50</li>
-                    <li class="instructor">Susan Mayer</li>
+                    <li class="instructor">Major</li>
                 </ul>
                 <ul class="courselisting">
                     <li class="code">Stat-424</li>
                     <li class="coursename"><a href="courses/424.pdf" class="colr" target="_blank">Data Mining and Simulation</a></li>
                     <li class="time">3</li>
                     <li class="location">100</li>
-                    <li class="instructor">Matt Demon</li>
+                    <li class="instructor">Major</li>
                 </ul>
                 <ul class="courselisting">
                     <li class="code">Stat-425</li>
                     <li class="coursename"><a href="courses/425.pdf" class="colr" target="_blank">Actuarial Statistics</a></li>
                     <li class="time">2</li>
                     <li class="location">50</li>
-                    <li class="instructor">Pablo Montagnes</li>
+                    <li class="instructor">Major</li>
                 </ul>      
                 <ul class="courselisting">
                     <li class="code">Stat-426</li>
                     <li class="coursename"><a href="courses/426.pdf" class="colr" target="_blank">Statistical Data Analysis X</a></li>
                     <li class="time">2</li>
                     <li class="location">50</li>
-                    <li class="instructor">Matt Demon</li>
+                    <li class="instructor">Major</li>
                 </ul>      
                 <ul class="courselisting">
                     <li class="code">Stat-427</li>
                     <li class="coursename"><a href="courses/427.pdf" class="colr" target="_blank">Statistical Data Analysis XI</a></li>
                     <li class="time">2</li>
                     <li class="location">50</li>
-                    <li class="instructor">Matt Demon</li>
+                    <li class="instructor">Major</li>
                 </ul>      
                 <ul class="courselisting">
                     <li class="code">Stat-428</li>

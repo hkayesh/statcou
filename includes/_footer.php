@@ -18,8 +18,8 @@
             <ul>
                 <li><a href="#">Academic Calendar</a></li>
                 <li><a href="#">Student Advisor</a></li>
-                <li><a href="#">Seminar Library</a></li>
-                <li><a href="#">Computer Lab</a></li>
+                <li><a href="seminar.php">Seminar Library</a></li>
+                <li><a href="computer_lab.php">Computer Lab</a></li>
                 <li><a href="#">Scholarships</a></li>
                 <li><a href="#">Email</a></li>
             </ul>
