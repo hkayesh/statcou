@@ -1,48 +1,39 @@
 <div class="col2">
-    <!-- Gallery -->	
-    <div class="college_gallery">
-        <h5>Image Gallery</h5>
+    <div class="news">
+        <h5>News</h5>
+        <marquee direction="up" scrollamount="4" onmouseover="this.stop()" onmouseout="this.start()">
         <ul>
-            <li>
-                <div class="thumb"><a href="gallery.php?gallery_id=1"><img src="images/gallery/study_tour_2013/1.JPG"  alt="" height="40px" width="40px" /></a></div> 
-                <div class="description">
-                    <h6><a href="gallery.php?gallery_id=1">Study Tour 2013</a></h6>
-                    <a class="gray" href="gallery.php?gallery_id=1"><em>(Posted on 17 July, 2011)</em></a>
-                </div> 
-            </li>
-            <li>
-                <div class="thumb"><a href="gallery.php?gallery_id=2"><img src="images/gallery/workshop/4.JPG"  height="40px" width="40px" alt="" /></a></div> 
-                <div class="description">
-                    <h6><a href="gallery.php?gallery_id=2"> Workshop</a></h6>
-                    <a href="gallery.php?gallery_id=2"><em>(Posted on 6 May, 2013)</em></a>
-                </div> 
-            </li>            
-            <li>
-                <div class="thumb"><a href="gallery.php?gallery_id=2"><img src="images/gallery/workshop/2.JPG"  height="40px" width="40px" alt="" /></a></div> 
-                <div class="description">
-                    <h6><a href="gallery.php?gallery_id=2">Seminar</a></h6>
-                    <a href="gallery.php?gallery_id=2"><em>(Posted on 6 May, 2013)</em></a>
-                </div> 
-            </li>            
-            <li>
-                <div class="thumb"><a href="gallery.php?gallery_id=2"><img src="images/gallery/study_tour_2013/6.JPG"  height="40px" width="40px" alt="" /></a></div> 
-                <div class="description">
-                    <h6><a href="gallery.php?gallery_id=2">RAG Day 2013</a></h6>
-                    <a href="gallery.php?gallery_id=2"><em>(Posted on 6 January, 2013)</em></a>
-                </div> 
-            </li>            
-            <li>
-                <div class="thumb"><a href="gallery.php?gallery_id=2"><img src="images/gallery/study_tour_2013/8.JPG"  height="40px" width="40px" alt="" /></a></div> 
-                <div class="description">
-                    <h6><a href="gallery.php?gallery_id=2"> Study Tour 2012</a></h6>
-                    <a href="gallery.php?gallery_id=2"><em>(Posted on 12 May, 2012)</em></a>
-                </div> 
-            </li>            
-        </ul>
+            <?php
+            ////////////////////////////// *Fetch data from database*//////////////////////////////
+            $query =  "SELECT *
+                        FROM `news`
+                        WHERE `status` = '1'
+                        ORDER BY `created_at` DESC";
+            $news = mysql_query($query);
+            if(mysql_num_rows($news) >= 1) {
+                while ($news_item = mysql_fetch_array($news)) {
+                    $dateTime = new DateTime($news_item['created_at']);
+                    $created_at = $dateTime->format('d M, Y');
+                    ?>
+                    <li>
+                        <div class="description">
+                            <p><a href="<?php echo $news_item['file_path']?>" target="_blank"><?php echo $news_item['description']?></a></p>
+                            <a class="gray" href="<?php echo $news_item['file_path']?>" target="_blank"><em>(Posted on <?php echo $created_at?>)</em></a>
+                        </div>
+                    </li>
+                <?php
+                }
+            } else {
+                echo '
+                    <li>
+                        <td colspan="3">No published news found</td>
+                    </li>';
+            }
+            ?>
+            </marquee>
     </div>
-    <div class="clear"></div>	
-    
-    
+    <div class="clear"></div>
+
     <!-- Top Student -->  
         <div class="college_gallery">
             <h5>Top Students</h5>

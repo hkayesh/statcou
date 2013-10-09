@@ -1,6 +1,5 @@
 <?php 
-include_once 'includes/_header.php'; 
-include_once 'includes/_db.php';
+include_once 'includes/_header.php';
 ?>
 <script type="text/javascript">
       $(document).ready(function() {
@@ -31,25 +30,33 @@ include_once 'includes/_db.php';
                         <th class="second_column">Description</th>
                         <th style="width: 13%">Link</th>
                     </tr>
-                     <?php
-                     ////////////////////////////// *Fetch data from database*//////////////////////////////
-                     $query =  "SELECT *
-                                    FROM `notices`
-                                    WHERE `status` = '1'
-                                    ORDER BY `created_at` ASC";
-                     $notices = mysql_query($query);
-                     while ($notice = mysql_fetch_array($notices)) {
+                    <?php
+                    ////////////////////////////// *Fetch data from database*//////////////////////////////
+                    $query =  "SELECT *
+                                FROM `notices`
+                                WHERE `status` = '1'
+                                ORDER BY `created_at` DESC";
+                    $notices = mysql_query($query);
+                    if(mysql_num_rows($notices) >= 1) {
+                        while ($notice = mysql_fetch_array($notices)) {
                          $dateTime = new DateTime($notice['created_at']);
                          $created_at = $dateTime->format('d-m-Y');
-                     ?>
+                        ?>
                          <tr>
                             <td><?php echo $created_at?></td>
                             <td class="second_column"><?php echo $notice['description']?></td>
                             <td><a href="<?php echo $notice['file_path']?>" target="_blank">Download</a></td>
                         </tr>
-                     <?php
-                     }
-                     ?>
+                        <?php
+                        }
+                    } else {
+                        echo '
+                        <tr>
+                            <td colspan="3">No published notice found</td>
+                        </tr>';
+                    }
+
+                    ?>
                 </table>
                 <div class="clear"></div>
             </div>

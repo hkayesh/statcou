@@ -1,3 +1,4 @@
+<?php include_once '_db.php'; ?>
 <DOCTYPE html">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
@@ -97,7 +98,7 @@
                                         -->
                                     </ul>			
                                 </li>                                
-                                <li><a href="faculty.php">Faculty</a></li>
+                                <li><a href="faculty.php">Faculty Members</a></li>
                                 <li><a href="seminar.php">Facilities</a>
                                     <!-- Sub Menu level 1 -->    
                                     <ul>
@@ -105,8 +106,14 @@
                                         <li><a style="border: none" href="computer_lab.php">Computer Lab</a></li>
                                     </ul>                                
                                 </li>
-                                <li><a href="noContent.php">Research</a></li>
-                                <li><a href="notice.php">Notice Board</a> </li>
+                                <li><a href="noContent.php">Students</a>
+                                    <!-- Sub Menu level 1 -->
+                                    <ul>
+                                        <li><a href="noContent.php">Current Students</a></li>
+                                        <li><a style="border: none" href="noContent.php">Prospective Students</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="notice.php">Notice</a> </li>
                                 <li><a href="results.php">Results</a> </li>
                                 <li><a href="downloads.php">Downloads</a> </li>
                                 <li style="border-right: none"><a href="gallery.php">Gallery</a></li>

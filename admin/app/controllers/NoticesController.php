@@ -42,7 +42,7 @@ class NoticesController extends \BaseController {
                                 $notice = new Notice;
                                 
                                 $file = Input::file('download_file');
-                                $destination = 'docs/';
+                                $destination = '../../docs/';
                                 $file_name = time().'_'.$file->getClientOriginalName();
                                 $file ->move($destination, $file_name);
                                 
@@ -51,7 +51,7 @@ class NoticesController extends \BaseController {
                                 
                                 $notice -> description = Input::get('description');
                                 $notice -> status = Input::get('status');                                
-                                $notice -> file_path = $destination.$file_name;
+                                $notice -> file_path = 'docs/'.$file_name;
                                 
                                 //dd($notice);
                                 if($notice->save()) {
@@ -80,7 +80,7 @@ class NoticesController extends \BaseController {
 	 */
 	public function show($id)
 	{
-                    echo 'Helo';
+                    echo 'Hello';
 	}
 
 	/**
@@ -117,10 +117,10 @@ class NoticesController extends \BaseController {
                         
                         if(Input::hasFile('download_file')) {
                             $file = Input::file('download_file');
-                            $destination = 'docs/';
+                            $destination = '../../docs/';
                             $file_name = time().'_'.$file->getClientOriginalName();
                             $file ->move($destination, $file_name);
-                            $notice -> file_path = $destination.$file_name;
+                            $notice -> file_path = 'docs/'.$file_name;
                         }                        
                         
                         if($notice -> save()) {

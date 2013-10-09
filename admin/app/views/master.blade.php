@@ -224,19 +224,19 @@
 
                         <div class="nav-divider">&nbsp;</div>
 
-                        <ul class="select"><li><a href="#"><b>Result</b><!--[if IE 7]><!--></a><!--<![endif]-->
+                        <ul class="select"><li><a href="{{ URL::to('result') }}"><b>Result</b><!--[if IE 7]><!--></a><!--<![endif]-->
                             </li>
                         </ul>
 
                         <div class="nav-divider">&nbsp;</div>
 
-                        <ul class="select"><li><a href="#nogo"><b>Downloads</b><!--[if IE 7]><!--></a><!--<![endif]-->
+                        <ul class="select"><li><a href="{{ URL::to('download') }}"><b>Downloads</b><!--[if IE 7]><!--></a><!--<![endif]-->
                             </li>
                         </ul>
 
                         <div class="nav-divider">&nbsp;</div>
 
-                        <ul class="select"><li><a href="#nogo"><b>News</b><!--[if IE 7]><!--></a><!--<![endif]-->
+                        <ul class="select"><li><a href="{{ URL::to('news') }}"><b>News</b><!--[if IE 7]><!--></a><!--<![endif]-->
                             </li>
                         </ul>
 

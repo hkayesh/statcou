@@ -26,9 +26,12 @@ Route::group(array('before' => 'auth'), function() {
                 'as' => 'dashboard',
                 'uses' => 'HomeController@showDeshboard'
             ));
-            
-            Route::resource('notice', 'NoticesController');
+
 });
+Route::resource('notice', 'NoticesController');
+Route::resource('result', 'ResultsController');
+Route::resource('download', 'DownloadsController');
+Route::resource('news', 'NewsController');
 
 
 

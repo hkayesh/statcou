@@ -71,7 +71,7 @@
                                                 @else
                                                 <td>Unpublished</td>
                                                 @endif
-                                                <td><a href="{{ $notice->file_path }}">Download</a></td>
+                                                <td><a href="../../{{ $notice->file_path }}">Download</a></td>
                                                 <td class="options-width">
                                                     <a href="{{ URL::to('notice/'.$notice->id.'/edit') }}" title="Edit" class="icon-1 info-tooltip"></a>
                                                     <a href="{{ URL::route('notice.destroy', $notice -> id) }}" data-method="delete" title="Delete" class="icon-2 info-tooltip"></a>
@@ -122,22 +122,4 @@
                     </tr>
                 </table>
                 <div class="clear">&nbsp;</div>
-                
-                <script>
-                $(function() {
-                    $('[data-method]').append(function(){
-                        alert('hello...');
-                        return "\n"+
-                           "<form action='"+$(this).attr('href')+"' method='POST' style='display:none'>\n"+
-                           "<input type='hidden' name='_method' value='"+$(this).attr('data-method')+"'>\n"+
-                           "</form>\n"
-                    })
-           
-                    .removeAttr('href')
-                    .attr('style','cursor:pointer;')
-                    .attr('onclick','$(this).find("form").submit();');
-                });
-            
-                </script>
-                
                 @stop

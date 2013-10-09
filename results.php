@@ -32,71 +32,33 @@
                         <th class="second_column">Description</th>
                         <th style="width: 13%">Link</th>
                     </tr>
-                    <tr>
-                        <td>10-08-13</td>
-                        <td class="second_column"> Lab equipment tender notice lab equipment tender notice lab equipment tender notice </td>
-                        <td><a href="#">Download</a></td>
-                    </tr>
-                    <tr>
-                        <td>10-08-13</td>
-                        <td class="second_column">Lab equipment tender notice</td>
-                        <td><a href="#">Download</a></td>
-                    </tr>
-                    <tr>
-                        <td>10-08-13</td>
-                        <td class="second_column">Lab equipment tender notice </td>
-                        <td><a href="#">Download</a></td>
-                    </tr>
-                    <tr>
-                        <td>10-08-13</td>
-                        <td class="second_column">Lab equipment tender notice lab equipment tender notice lab equipment tender notice lab equipment tender notice lab equipment tender notice </td>
-                        <td><a href="#">Download</a></td>
-                    </tr>
-                    <tr>
-                        <td>10-08-13</td>
-                        <td class="second_column">Lab equipment tender notice </td>
-                        <td><a href="#">Download</a></td>
-                    </tr>
-                    <tr>
-                        <td>10-08-13</td>
-                        <td class="second_column">Lab equipment tender notice lab equipment tender notice lab equipment tender notice lab equipment tender notice lab equipment tender notice </td>
-                        <td><a href="#">Download</a></td>
-                    </tr>
-                    <tr class="last_row">
-                        <td>10-08-13</td>
-                        <td class="second_column">Lab equipment tender notice</td>
-                        <td><a href="#">Download</a></td>
-                    </tr>
+                    <?php
+                    ////////////////////////////// *Fetch data from database*//////////////////////////////
+                    $query =  "SELECT *
+                                    FROM `results`
+                                    WHERE `status` = '1'
+                                    ORDER BY `created_at` DESC";
+                    $results = mysql_query($query);
+                    if(mysql_num_rows($results) >= 1) {
+                        while ($result = mysql_fetch_array($results)) {
+                            $dateTime = new DateTime($result['created_at']);
+                            $created_at = $dateTime->format('d-m-Y');
+                            ?>
+                            <tr>
+                                <td><?php echo $created_at?></td>
+                                <td class="second_column"><?php echo $result['description']?></td>
+                                <td><a href="<?php echo $result['file_path']?>" target="_blank">Download</a></td>
+                            </tr>
+                        <?php
+                        }
+                    } else {
+                        echo '
+                        <tr>
+                            <td colspan="3">No published result found</td>
+                        </tr>';
+                    }
+                    ?>
                 </table>
-                <!--<ul class="listheading">
-                    <li class="notice_name colr" >Date</li>
-                    <li class="notice_description colr">Description</li>
-                </ul>
-                <ul class="courselisting">
-                    <li class="notice_name">10-08-13 </li>
-                    <li class="notice_description"><a href="courses/111.pdf" class="colr" target="_blank">Basic Statistics-I Basic Statistics-I Basic Statistics-I Basic Statistics-I Basic Statistics-I Basic Statistics-I Basic Statistics-I Basic Statistics-I Basic Statistics-I Basic Statistics-I</a></li>
-
-                </ul>
-                <ul class="courselisting">
-                    <li class="notice_name">Stat-112</li>
-                    <li class="notice_description"><a href="courses/112.pdf" class="colr" target="_blank">Elementary Probability-I</a></li>
-                </ul>
-                <ul class="courselisting">
-                    <li class="notice_name">Stat-113</li>
-                    <li class="notice_description"><a href="courses/113.pdf" class="colr" target="_blank">Linear Algebra</a></li>
-                </ul>
-                <ul class="courselisting">
-                    <li class="notice_name">Stat-114</li>
-                    <li class="notice_description"><a href="courses/114.pdf" class="colr" target="_blank">Calculus</a></li>
-                </ul>
-                <ul class="courselisting">
-                    <li class="notice_name">Stat-115</li>
-                    <li class="notice_description"><a href="courses/115.pdf" class="colr" target="_blank">Principles of Economics-I</a></li>
-                </ul>      
-                <ul class="courselisting">
-                    <li class="notice_name">Stat-116</li>
-                    <li class="notice_description"><a href="courses/116.pdf" class="colr" target="_blank">Statistical Data Analysis-I</a></li>
-                </ul>-->     
                 <div class="clear"></div>
             </div>
         </div>

@@ -167,6 +167,9 @@ a.search {
 	color:#08387f;
 	float:left;
 	padding-right:10px;
+    height: 20px;
+    overflow: hidden;
+    width: 80%;
 }
 .news_des a {
 	color:#08387f;
@@ -318,39 +321,39 @@ a.search {
 	background-image:url(../images/admission.png);
 	background-repeat:no-repeat;
 	background-position:11px 7px;
-	width:80px;
+    /*width:80px;*/
 	display:inline-block;
 }
 .content_links ul li a.accommodaiton {
 	background-image:url(../images/account.png);
 	background-repeat:no-repeat;
 	background-position:9px 6px;
-	width: 57px;
+	/*width: 57px;*/
 	display:inline-block;
 }
 .content_links ul li a.community {
 	background-image:url(../images/community.png);
 	background-repeat:no-repeat;
 	background-position:11px 7px;
-	width:70px;
+	/*width:70px;*/
 	display:inline-block;
 }
 .content_links ul li a.schorship {
 	background-image:url(../images/scholarship.png);
 	background-repeat:no-repeat;
 	background-position:9px 5px;
-	width:140px;
+	/*width:140px;*/
 	display:inline-block;
 }
 .content_links ul li a.take_tour {
 	background-image:url(../images/take_tour.png);
 	background-repeat:no-repeat;
 	background-position:9px 8px;
-	width:86px;
+	/*width:86px;*/
 	display:inline-block;
 }
 .content_links ul li.last {
-	width:123px;
+	/*width:123px;*/
 	float:left;
 	background:none!important;
 	height:26px;
@@ -895,6 +898,73 @@ ul.advance_option li.selected a {
 	background-repeat:no-repeat;
 	background-position:bottom;
 }
+
+/*
+=======================================================================
+    News Rules
+=======================================================================
+*/
+
+.news {
+    width:238px;
+    margin-bottom:10px;
+    float:left;
+    background-color:#f7f7f7;
+    border:solid 1px #d5d5d5;
+}
+.news h5 {
+    width:225px;
+    padding-top:13px;
+    font-size:14px;
+    color:#08387f;
+    font-weight:bold;
+    height:23px;
+    /*float:left;*/
+    padding-left:13px;
+    border-bottom:solid 1px #d5d5d5;
+    background-color:#f4ffd3;
+}
+.news ul {
+    /*float:left;*/
+    padding:2px 0;
+}
+.news ul li {
+    background-image:url(../images/rbder.png);
+    background-repeat:no-repeat;
+    background-position:bottom;
+    padding:9px 11px;
+    width:216px;
+    /*float:left;*/
+}
+.news ul li .thumb {
+    width:42px;
+    height:42px;
+    /*float:left;*/
+}
+.news ul li .thumb img {
+    border: solid 1px #d5d5d5;
+}
+.news ul li .description {
+    width:100%;
+    /*float:right;*/
+}
+.news ul li .description h6 {
+    color:#30393d;
+    font-size:13px;
+    font-weight:bold;
+    padding-top:2px;
+    padding-bottom:4px;
+}
+.news ul li .description p a {
+    color:#0086B2;
+    font-size:13px;
+}
+.news ul li:hover {
+    background-image:url(../images/lihover.gif)!important;
+    background-repeat:no-repeat;
+    background-position:bottom;
+}
+
 /*
 =======================================================================
     Downloads  Rules
