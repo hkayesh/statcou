@@ -20,11 +20,9 @@
                 <div class="contentdiv">
                     <a href="index.php#"><img src="images/banner.jpg" alt="" /></a>
                     <div class="banner_des">
-                        <h4>Image description header here</h4>
-                        <p>Her goes the detail description.......</p>
                     </div>
                 </div> 
-                <div class="contentdiv">
+                <!--<div class="contentdiv">
                     <a href="index.php#"><img src="images/banner1.jpg" alt="" /></a>
                     <div class="banner_des">
                        <h4>Image description header here</h4>
@@ -37,19 +35,15 @@
                         <h4>Image description header here</h4>
                         <p>Her goes the detail description.......</p>
                     </div>
-                </div> 
+                </div>-->
                 <div class="contentdiv">
                     <a href="index.phpl#"><img src="images/banner3.jpg" alt="" /></a>
                     <div class="banner_des">
-                        <h4>Image description header here</h4>
-                        <p>Her goes the detail description.......</p>
                     </div>
                 </div> 
                 <div class="contentdiv">
                     <a href="index.php#"><img src="images/banner4.jpg" alt="" /></a>
                     <div class="banner_des">
-                       <h4>Image description header here</h4>
-                        <p>Her goes the detail description.......</p>
                     </div>
                 </div> 
             </div> 
