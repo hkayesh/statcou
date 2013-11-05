@@ -19,35 +19,17 @@
                         <td>
                             <!--  start content-table-inner ...................................................................... START -->
                             <div id="content-table-inner">
-
                                 <!--  start table-content  -->
                                 <div id="table-content">
-
-                                    <!--  start message-red 
-                                    <div id="message-red">
-                                        <table border="0" width="100%" cellpadding="0" cellspacing="0">
-                                            <tr>
-                                                <td class="red-left">Error. <a href="">Please try again.</a></td>
-                                                <td class="red-right"><a class="close-red"><img src="images/table/icon_close_red.gif"   alt="" /></a></td>
-                                            </tr>
-                                        </table>
-                                    </div>
-                                     end message-red -->
-
-                                    <!--  start message-green 
-                                    <div id="message-green">
-                                        <table border="0" width="100%" cellpadding="0" cellspacing="0">
-                                            <tr>
-                                                <td class="green-left">Product added sucessfully. <a href="">Add new one.</a></td>
-                                                <td class="green-right"><a class="close-green"><img src="images/table/icon_close_green.gif"   alt="" /></a></td>
-                                            </tr>
-                                        </table>
-                                    </div>
-                                     end message-green -->
-
-
                                     <!--  start product-table ..................................................................................... -->
                                         <table border="0" width="100%" cellpadding="0" cellspacing="0" id="product-table">
+                                            @if($message = Session::get('success'))
+                                            <tr>
+                                                <td colspan="5" >
+                                                    <div class="green-left" style=" height: 45px; line-height: 28px">{{ $message }}</div>
+                                                </td>
+                                            </tr>
+                                            @endif
                                             <tr>
                                                 <td colspan="5">
                                                     <div>

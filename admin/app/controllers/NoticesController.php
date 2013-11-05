@@ -9,7 +9,9 @@ class NoticesController extends \BaseController {
 	 */
 	public function index()
 	{
-                    $notices = Notice::all();
+                    $notices = DB::table('notices')
+                        ->orderby('updated_at', 'desc')
+                        ->get();
                     return View::make('notice.index')
                             ->with('notices', $notices);
 	}
@@ -80,7 +82,10 @@ class NoticesController extends \BaseController {
 	 */
 	public function show($id)
 	{
-                    echo 'Hello';
+        $notice = Notice::find($id);
+        $notice->delete();
+        return Redirect::route('notice.index')
+            ->with('success', 'Notice deleted successfully');
 	}
 
 	/**
@@ -91,11 +96,11 @@ class NoticesController extends \BaseController {
 	 */
 	public function edit($id)
 	{
-                    $notice = Notice::find($id);
-                    return View::make('notice.edit')
-                            ->with(array(
-                                'notice' => $notice
-                            ));                    
+        $notice = Notice::find($id);
+        return View::make('notice.edit')
+                ->with(array(
+                    'notice' => $notice
+                ));
 	}
 
 	/**
