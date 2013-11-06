@@ -1,6 +1,6 @@
 @extends('master')
 @section('content')
-<div id="page-heading"><h1>Create Notice</h1></div>
+<div id="page-heading"><h1>Create News</h1></div>
 <table border="0" width="100%" cellpadding="0" cellspacing="0" id="content-table">
     <tr>
         <th rowspan="3" class="sized"><img src="../images/shared/side_shadowleft.jpg" width="20" height="300" alt="" /></th>
@@ -15,17 +15,17 @@
             <!--  start content-table-inner -->
             <div id="content-table-inner">
                 <table border="0" width="100%" cellpadding="0" cellspacing="0">
-                    @if($message = Session::get('success'))
+                    @if(Session::get('success'))
                     <tr>
                         <td colspan="5" >
-                            <div class="green-left" style=" height: 45px; line-height: 28px">{{ $message }}</div>
+                            <div class="green-left" style=" height: 45px; line-height: 28px">News saved successfully</div>            
                         </td>
                     </tr>
                     @endif
                     <tr valign="top">
                         <td>
                             <!-- start id-form -->
-                            {{ Form::open(array ('route' => 'notice.store', 'files' => true)) }}
+                            {{ Form::open(array ('route' => 'news.store', 'files' => true)) }}
                             <table border="0" cellpadding="0" cellspacing="0"  id="id-form">
                                 <tr>
                                     <th valign="top">Description:</th>

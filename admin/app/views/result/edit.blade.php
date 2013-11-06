@@ -1,6 +1,6 @@
 @extends('master')
 @section('content')
-<div id="page-heading"><h1>Create Notice</h1></div>
+<div id="page-heading"><h1>Edit Result</h1></div>
 <table border="0" width="100%" cellpadding="0" cellspacing="0" id="content-table">
     <tr>
         <th rowspan="3" class="sized"><img src="../images/shared/side_shadowleft.jpg" width="20" height="300" alt="" /></th>
@@ -15,21 +15,21 @@
             <!--  start content-table-inner -->
             <div id="content-table-inner">
                 <table border="0" width="100%" cellpadding="0" cellspacing="0">
-                    @if($message = Session::get('success'))
+                    @if($message = Session::get('update_success'))
                     <tr>
                         <td colspan="5" >
-                            <div class="green-left" style=" height: 45px; line-height: 28px">{{ $message }}</div>
+                            <div class="green-left" style=" height: 45px; line-height: 28px">{{ $message }}</div>            
                         </td>
                     </tr>
                     @endif
                     <tr valign="top">
                         <td>
                             <!-- start id-form -->
-                            {{ Form::open(array ('route' => 'notice.store', 'files' => true)) }}
+                            {{ Form::open(array ('url' => URL::to('result/'.$result->id), 'files' => true, 'method' => 'PUT')) }}
                             <table border="0" cellpadding="0" cellspacing="0"  id="id-form">
                                 <tr>
                                     <th valign="top">Description:</th>
-                                    <td><textarea rows="" cols="" class="form-textarea" name="description" >{{ Input::old('description') }}</textarea></td>
+                                    <td><textarea rows="" cols="" class="form-textarea" name="description" >{{ $result ->description }}</textarea></td>
                                     <td style="width: 40%">
                                         @if($error = $errors->first('description'))
                                             <div class="error-left"></div>
@@ -41,9 +41,13 @@
                                     <th valign="top">Status:</th>
                                     <td>
                                         <select name="status" name="status" class="select-option" style="width: 150px; height: 25px; border: 1px solid #ACACAC">
-                                            
-                                            <option value="1">Published</option>
+                                            @if($result -> status)
+                                            <option value="1" selected>Published</option>
                                             <option value="0">Unpublished</option>
+                                            @else
+                                            <option value="1">Published</option>
+                                            <option value="0" selected>Unpublished</option>
+                                            @endif
                                         </select>
                                     </td>
                                     <td>
