@@ -1,7 +1,7 @@
 @extends('master')
     @section('content')
     <div id="page-heading">
-                    <h1>Download</h1>
+                    <h1>Downloads</h1>
                 </div>
                 <!-- end page-heading -->
 
