@@ -17,21 +17,32 @@ Route::any('login', array(
 ));
 
 Route::group(array('before' => 'auth'), function() {
-            Route::get('logout', array(
-                'as' => 'user/logout',
-                'uses' => 'UsersController@logout'
-            ));
+    Route::get('logout', array(
+        'as' => 'user/logout',
+        'uses' => 'UsersController@logout'
+    ));
 
-            Route::any('/', array(
-                'as' => 'dashboard',
-                'uses' => 'HomeController@showDeshboard'
-            ));
+    Route::any('/', array(
+        'as' => 'dashboard',
+        'uses' => 'HomeController@showDeshboard'
+    ));
+
+    Route::get('account', array(
+        'as' => 'user/account',
+        'uses' => 'UsersController@account'
+    ));
+
+    Route::any('saveAccount', array(
+        'as' => 'user/saveAccount',
+        'uses' => 'UsersController@saveAccount'
+    ));
+
+    Route::resource('notice', 'NoticesController');
+    Route::resource('result', 'ResultsController');
+    Route::resource('download', 'DownloadsController');
+    Route::resource('news', 'NewsController');
 
 });
-Route::resource('notice', 'NoticesController');
-Route::resource('result', 'ResultsController');
-Route::resource('download', 'DownloadsController');
-Route::resource('news', 'NewsController');
 
 
 

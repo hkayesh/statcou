@@ -180,9 +180,8 @@
 
                 <!-- start nav-right -->
                 <div id="nav-right">
-
                     <div class="nav-divider">&nbsp;</div>
-                    <div class="showhide-account"><img src="images/shared/nav/nav_myaccount.gif" width="93" height="14" alt="" /></div>
+                    <a href="{{ URL::route('user/account') }}" id="logout">My Account<img src="images/shared/nav/nav_myaccount.gif" width="94" height="14" alt="" /></a>
                     <div class="nav-divider">&nbsp;</div>
                     <a href="{{ URL::route('user/logout') }}" id="logout">Logout<img src="images/shared/nav/nav_logout.gif" width="64" height="14" alt="" /></a>
                     <div class="clear">&nbsp;</div>
