@@ -20,8 +20,8 @@ class HomeController extends BaseController {
 		return View::make('hello');
 	}
         
-        public function showDeshboard() {
-            return View::make('master');
-        }
+    public function showDeshboard() {
+        return View::make('user/dashboard');
+    }
 
 }

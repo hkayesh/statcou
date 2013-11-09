@@ -181,9 +181,9 @@
                 <!-- start nav-right -->
                 <div id="nav-right">
                     <div class="nav-divider">&nbsp;</div>
-                    <a href="{{ URL::route('user/account') }}" id="logout">My Account<img src="images/shared/nav/nav_myaccount.gif" width="94" height="14" alt="" /></a>
+                    <a href="{{ URL::route('user/account') }}" id="logout">My Account<img src="/edu/live/admin/public/images/shared/nav/nav_myaccount.gif" width="94" height="14" alt="My Account" /></a>
                     <div class="nav-divider">&nbsp;</div>
-                    <a href="{{ URL::route('user/logout') }}" id="logout">Logout<img src="images/shared/nav/nav_logout.gif" width="64" height="14" alt="" /></a>
+                    <a href="{{ URL::route('user/logout') }}" id="logout">Logout<img src="/edu/live/admin/public/images/shared/nav/nav_logout.gif" width="64" height="14" alt="Logout" /></a>
                     <div class="clear">&nbsp;</div>
 
                     <!--  start account-content -->	
