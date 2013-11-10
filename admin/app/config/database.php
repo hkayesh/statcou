@@ -58,6 +58,10 @@ return array(
 			'database'  => 'statcou',
 			'username'  => 'root',
 			'password'  => '',
+            //Server database configuration
+            /*'database'  => 'statcouo_statcou',
+			'username'  => 'statcouo',
+			'password'  => '**shamol54321',*/
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
