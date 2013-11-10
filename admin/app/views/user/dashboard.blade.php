@@ -39,7 +39,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <a href="{{ URL::to('downloads/create') }}">Create New Download</a>
+                            <a href="{{ URL::to('download/create') }}">Create New Download</a>
                         </td>
                     </tr>
                     <tr>
