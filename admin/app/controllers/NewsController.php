@@ -69,7 +69,7 @@ class NewsController extends \BaseController {
         else {
             return Redirect::route('news.create')
                 ->withErrors($validator)
-                ->withInput($input);
+                ->withInput(Input::except('download_file'));
         }
 
     }

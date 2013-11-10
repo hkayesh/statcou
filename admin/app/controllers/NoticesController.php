@@ -34,6 +34,7 @@ class NoticesController extends \BaseController {
 	public function store()
 	{
                             $input = Input::all();
+
                             $validator = Validator::make($input, array(
                                 'description' => 'required',
                                 'status' => 'required',
@@ -41,16 +42,13 @@ class NoticesController extends \BaseController {
                             ));
                             
                             if($validator -> passes()) {
-                                $notice = new Notice;
-                                
+                                die('passes');
+                                /*$notice = new Notice;
                                 $file = Input::file('download_file');
                                 $destination = '../../docs/';
                                 $file_name = time().'_'.$file->getClientOriginalName();
                                 $file ->move($destination, $file_name);
-                                
-                                
-                                //dd($file);
-                                
+
                                 $notice -> description = Input::get('description');
                                 $notice -> status = Input::get('status');                                
                                 $notice -> file_path = 'docs/'.$file_name;
@@ -63,13 +61,14 @@ class NoticesController extends \BaseController {
                                 else {
                                      return Redirect::to('notice.create')
                                             ->with('failure', 'Notice could not be saved');
-                                }
+                                }*/
                                 
                             }
                             else {
+                                //die('hi');
                                 return Redirect::route('notice.create')
                                         ->withErrors($validator)
-                                        ->withInput($input);
+                                        ->withInput(Input::except('download_file'));
                             }
                 
 	}

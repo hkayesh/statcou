@@ -69,7 +69,7 @@ class DownloadsController extends \BaseController {
         else {
             return Redirect::route('download.create')
                 ->withErrors($validator)
-                ->withInput($input);
+                ->withInput(Input::except('download_file'));
         }
 
     }

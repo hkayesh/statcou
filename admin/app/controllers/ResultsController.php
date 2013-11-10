@@ -69,7 +69,7 @@ class ResultsController extends \BaseController {
         else {
             return Redirect::route('result.create')
                 ->withErrors($validator)
-                ->withInput($input);
+                ->withInput(Input::except('download_file'));
         }
 
     }
