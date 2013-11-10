@@ -9,12 +9,12 @@
         <![endif]-->
 
         <!--  jquery core -->
-        <script src="js/jquery/jquery-1.4.1.min.js" type="text/javascript"></script>
+        <script src="{{ URL::asset('js/jquery/jquery-1.4.1.min.js') }}" type="text/javascript"></script>
 
         <!--  checkbox styling script -->
-        <script src="js/jquery/ui.core.js" type="text/javascript"></script>
-        <script src="js/jquery/ui.checkbox.js" type="text/javascript"></script>
-        <script src="js/jquery/jquery.bind.js" type="text/javascript"></script>
+        <script src="{{ URL::asset('js/jquery/ui.core.js') }}" type="text/javascript"></script>
+        <script src="{{ URL::asset('js/jquery/ui.checkbox.js') }}" type="text/javascript"></script>
+        <script src="{{ URL::asset('js/jquery/jquery.bind.js') }}" type="text/javascript"></script>
         <script type="text/javascript">
             $(function(){
                 $('input').checkBox();
@@ -29,7 +29,7 @@
         <![if !IE 7]>
 
         <!--  styled select box script version 1 -->
-        <script src="js/jquery/jquery.selectbox-0.5.js" type="text/javascript"></script>
+        <script src="{{ URL::asset('js/jquery/jquery.selectbox-0.5.js') }}" type="text/javascript"></script>
         <script type="text/javascript">
             $(document).ready(function() {
                 $('.styledselect').selectbox({ inputClass: "selectbox_styled" });
@@ -38,7 +38,7 @@
         <![endif]>
 
         <!--  styled select box script version 2 --> 
-        <script src="js/jquery/jquery.selectbox-0.5_style_2.js" type="text/javascript"></script>
+        <script src="{{ URL::asset('js/jquery/jquery.selectbox-0.5_style_2.js') }}" type="text/javascript"></script>
         <script type="text/javascript">
             $(document).ready(function() {
                 $('.styledselect_form_1').selectbox({ inputClass: "styledselect_form_1" });
@@ -47,7 +47,7 @@
         </script>
 
         <!--  styled select box script version 3 --> 
-        <script src="js/jquery/jquery.selectbox-0.5_style_2.js" type="text/javascript"></script>
+        <script src="{{ URL::asset('js/jquery/jquery.selectbox-0.5_style_2.js') }}" type="text/javascript"></script>
         <script type="text/javascript">
             $(document).ready(function() {
                 $('.styledselect_pages').selectbox({ inputClass: "styledselect_pages" });
@@ -55,11 +55,11 @@
         </script>
 
         <!--  styled file upload script --> 
-        <script src="js/jquery/jquery.filestyle.js" type="text/javascript"></script>
+        <script src="{{ URL::asset('js/jquery/jquery.filestyle.js') }}" type="text/javascript"></script>
         <script type="text/javascript" charset="utf-8">
             $(function() {
                 $("input.file_1").filestyle({ 
-                    image: "images/forms/choose-file.gif",
+                    image: "{{ URL::asset('images/forms/choose-file.gif') }}",
                     imageheight : 21,
                     imagewidth : 78,
                     width : 310
@@ -68,11 +68,11 @@
         </script>
 
         <!-- Custom jquery scripts -->
-        <script src="js/jquery/custom_jquery.js" type="text/javascript"></script>
+        <script src="{{ URL::asset('js/jquery/custom_jquery.js') }}" type="text/javascript"></script>
 
         <!-- Tooltips -->
-        <script src="js/jquery/jquery.tooltip.js" type="text/javascript"></script>
-        <script src="js/jquery/jquery.dimensions.js" type="text/javascript"></script>
+        <script src="{{ URL::asset('js/jquery/jquery.tooltip.js') }}" type="text/javascript"></script>
+        <script src="{{ URL::asset('js/jquery/jquery.dimensions.js') }}" type="text/javascript"></script>
         <script type="text/javascript">
             $(function() {
                 $('a.info-tooltip ').tooltip({
@@ -89,9 +89,9 @@
 
 
         <!--  date picker script -->
-        <link rel="stylesheet" href="css/datePicker.css" type="text/css" />
-        <script src="js/jquery/date.js" type="text/javascript"></script>
-        <script src="js/jquery/jquery.datePicker.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="{{ URL::asset('css/datePicker.css') }}" type="text/css" />
+        <script src="{{ URL::asset('js/jquery/date.js') }}" type="text/javascript"></script>
+        <script src="{{ URL::asset('js/jquery/jquery.datePicker.js') }}" type="text/javascript"></script>
         <script type="text/javascript" charset="utf-8">
             $(function()
             {
@@ -161,7 +161,7 @@
         </script>
 
         <!-- MUST BE THE LAST SCRIPT IN <HEAD></HEAD></HEAD> png fix -->
-        <script src="js/jquery/jquery.pngFix.pack.js" type="text/javascript"></script>
+        <script src="{{ URL::asset('js/jquery/jquery.pngFix.pack.js') }}" type="text/javascript"></script>
         <script type="text/javascript">
             $(document).ready(function(){
                 $(document).pngFix( );
@@ -181,9 +181,9 @@
                 <!-- start nav-right -->
                 <div id="nav-right">
                     <div class="nav-divider">&nbsp;</div>
-                    <a href="{{ URL::route('user/account') }}" id="logout">My Account<img src="/edu/live/admin/public/images/shared/nav/nav_myaccount.gif" width="94" height="14" alt="My Account" /></a>
+                    <a href="{{ URL::route('user/account') }}" id="logout">My Account<img src="{{ URL::asset('images/shared/nav/nav_myaccount.gif') }}" width="94" height="14" alt="My Account" /></a>
                     <div class="nav-divider">&nbsp;</div>
-                    <a href="{{ URL::route('user/logout') }}" id="logout">Logout<img src="/edu/live/admin/public/images/shared/nav/nav_logout.gif" width="64" height="14" alt="Logout" /></a>
+                    <a href="{{ URL::route('user/logout') }}" id="logout">Logout<img src="{{ URL::asset('images/shared/nav/nav_logout.gif') }}" width="64" height="14" alt="Logout" /></a>
                     <div class="clear">&nbsp;</div>
 
                     <!--  start account-content -->	
