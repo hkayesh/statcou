@@ -10,8 +10,9 @@ class NewsController extends \BaseController {
     public function index()
     {
         $news = DB::table('news')
+            ->orderby('status', 'desc')
             ->orderby('updated_at', 'desc')
-            ->get();
+            ->paginate(5);
         return View::make('news.index')
             ->with('newsList', $news);
     }

@@ -10,8 +10,9 @@ class ResultsController extends \BaseController {
     public function index()
     {
         $results = DB::table('results')
+            ->orderby('status', 'desc')
             ->orderby('updated_at', 'desc')
-            ->get();
+            ->paginate(5);
         return View::make('result.index')
             ->with('results', $results);
     }

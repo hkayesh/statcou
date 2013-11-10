@@ -168,8 +168,25 @@
                 var header = $("#page-heading h1").text();
                 $('.nav div ul.current').removeClass('current').addClass('select');
                 $('.nav div ul li a b:contains('+header+')').parents().eq(2).removeClass('select').addClass('current');
+
+                $('.pagination').addClass('custom-pagination');
             });
         </script>
+        <style type="text/css">
+            .custom-pagination {
+                text-align: center;
+                padding-right: 20px;
+            }
+            .custom-pagination ul li{
+                display: inline-block;
+                padding: 5px;
+            }
+
+            .custom-pagination ul li.active {
+                color: red;
+                font-size: 20px;
+            }
+        </style>
     </head>
     <body> 
 

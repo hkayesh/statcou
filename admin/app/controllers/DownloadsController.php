@@ -10,8 +10,9 @@ class DownloadsController extends \BaseController {
     public function index()
     {
         $downloads = DB::table('downloads')
+            ->orderby('status', 'desc')
             ->orderby('updated_at', 'desc')
-            ->get();
+            ->paginate(5);
         return View::make('download.index')
             ->with('downloads', $downloads);
     }

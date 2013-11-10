@@ -10,8 +10,9 @@ class NoticesController extends \BaseController {
 	public function index()
 	{
         $notices = DB::table('notices')
+            ->orderby('status', 'desc')
             ->orderby('updated_at', 'desc')
-            ->get();
+            ->paginate(5);
         return View::make('notice.index')
                 ->with('notices', $notices);
 	}
