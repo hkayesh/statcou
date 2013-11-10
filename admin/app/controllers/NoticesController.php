@@ -9,11 +9,11 @@ class NoticesController extends \BaseController {
 	 */
 	public function index()
 	{
-                    $notices = DB::table('notices')
-                        ->orderby('updated_at', 'desc')
-                        ->get();
-                    return View::make('notice.index')
-                            ->with('notices', $notices);
+        $notices = DB::table('notices')
+            ->orderby('updated_at', 'desc')
+            ->get();
+        return View::make('notice.index')
+                ->with('notices', $notices);
 	}
 
 	/**
@@ -23,7 +23,7 @@ class NoticesController extends \BaseController {
 	 */
 	public function create()
 	{
-                    return View::make('notice.create');
+        return View::make('notice.create');
 	}
 
 	/**
@@ -33,43 +33,40 @@ class NoticesController extends \BaseController {
 	 */
 	public function store()
 	{
-                            $input = Input::all();
+        $input = Input::all();
 
-                            $validator = Validator::make($input, array(
-                                'description' => 'required',
-                                'status' => 'required',
-                                'download_file' => 'required'
-                            ));
-                            
-                            if($validator -> passes()) {
-                                die('passes');
-                                /*$notice = new Notice;
-                                $file = Input::file('download_file');
-                                $destination = '../../docs/';
-                                $file_name = time().'_'.$file->getClientOriginalName();
-                                $file ->move($destination, $file_name);
+        $validator = Validator::make($input, array(
+            'description' => 'required',
+            'status' => 'required',
+            'download_file' => 'required'
+        ));
 
-                                $notice -> description = Input::get('description');
-                                $notice -> status = Input::get('status');                                
-                                $notice -> file_path = 'docs/'.$file_name;
-                                
-                                //dd($notice);
-                                if($notice->save()) {
-                                    return Redirect::route('notice.create')
-                                            ->with('success', 'Notice saved successfully');
-                                }
-                                else {
-                                     return Redirect::to('notice.create')
-                                            ->with('failure', 'Notice could not be saved');
-                                }*/
-                                
-                            }
-                            else {
-                                //die('hi');
-                                return Redirect::route('notice.create')
-                                        ->withErrors($validator)
-                                        ->withInput(Input::except('download_file'));
-                            }
+        if($validator -> passes()) {
+            $notice = new Notice;
+            $file = Input::file('download_file');
+            $destination = '../../docs/';
+            $file_name = time().'_'.$file->getClientOriginalName();
+            $file ->move($destination, $file_name);
+
+            $notice -> description = Input::get('description');
+            $notice -> status = Input::get('status');
+            $notice -> file_path = 'docs/'.$file_name;
+
+            if($notice->save()) {
+                return Redirect::route('notice.create')
+                    ->with('success', 'Notice saved successfully');
+            }
+            else {
+                 return Redirect::to('notice.create')
+                    ->with('failure', 'Notice could not be saved');
+            }
+
+        }
+        else {
+            return Redirect::route('notice.create')
+                ->withErrors($validator)
+                ->withInput(Input::except('download_file'));
+        }
                 
 	}
 
@@ -97,9 +94,9 @@ class NoticesController extends \BaseController {
 	{
         $notice = Notice::find($id);
         return View::make('notice.edit')
-                ->with(array(
-                    'notice' => $notice
-                ));
+            ->with(array(
+                'notice' => $notice
+            ));
 	}
 
 	/**
@@ -110,31 +107,31 @@ class NoticesController extends \BaseController {
 	 */
 	public function update($id)
 	{
-                    $validator = Validator::make(Input::all(), array(
-                                'description' => 'required',
-                                'status' => 'required',
-                    ));
-                    if($validator -> passes()) {
-                        $notice = Notice::find($id);
-                        $notice -> description = Input::get('description');
-                        $notice -> status = Input::get('status');      
-                        
-                        if(Input::hasFile('download_file')) {
-                            $file = Input::file('download_file');
-                            $destination = '../../docs/';
-                            $file_name = time().'_'.$file->getClientOriginalName();
-                            $file ->move($destination, $file_name);
-                            $notice -> file_path = 'docs/'.$file_name;
-                        }                        
-                        
-                        if($notice -> save()) {
-                            return Redirect::to('notice/'.$id.'/edit')
-                                            ->with('update_success', 'Notice updated successfully');
-                        }
-                    } else {
-                        return Redirect::to('notice/'.$id.'/edit')
-                                ->withErrors($validator);                        
-                    }
+        $validator = Validator::make(Input::all(), array(
+                    'description' => 'required',
+                    'status' => 'required',
+        ));
+        if($validator -> passes()) {
+            $notice = Notice::find($id);
+            $notice -> description = Input::get('description');
+            $notice -> status = Input::get('status');
+
+            if(Input::hasFile('download_file')) {
+                $file = Input::file('download_file');
+                $destination = '../../docs/';
+                $file_name = time().'_'.$file->getClientOriginalName();
+                $file ->move($destination, $file_name);
+                $notice -> file_path = 'docs/'.$file_name;
+            }
+
+            if($notice -> save()) {
+                return Redirect::to('notice/'.$id.'/edit')
+                    ->with('update_success', 'Notice updated successfully');
+            }
+        } else {
+            return Redirect::to('notice/'.$id.'/edit')
+                ->withErrors($validator);
+        }
 	}
 
 	/**
