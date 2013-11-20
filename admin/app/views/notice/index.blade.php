@@ -57,7 +57,6 @@
                                                 <td class="options-width">
                                                     <a href="{{ URL::to('notice/'.$notice->id.'/edit') }}" title="Edit" class="icon-1 info-tooltip"></a>
                                                     <a href="{{ URL::route('notice.destroy', $notice -> id) }}" data-method="delete" title="Delete" class="icon-2 info-tooltip"></a>
-                                                    <a href="" title="Save" class="icon-5 info-tooltip"></a>
                                                 </td>
                                             </tr>
                                             @endforeach                                  

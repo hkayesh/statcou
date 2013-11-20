@@ -82,7 +82,6 @@
                                                 <td class="options-width">
                                                     <a href="{{ URL::to('download/'.$download->id.'/edit') }}" title="Edit" class="icon-1 info-tooltip"></a>
                                                     <a href="{{ URL::route('download.destroy', $download -> id) }}" data-method="delete" title="Delete" class="icon-2 info-tooltip"></a>
-                                                    <a href="" title="Save" class="icon-5 info-tooltip"></a>
                                                 </td>
                                             </tr>
                                             @endforeach                                  
