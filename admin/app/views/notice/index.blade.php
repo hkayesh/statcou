@@ -38,11 +38,11 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <th class="table-header-repeat line-left minwidth-1"><a href="">Date</a>	</th>
-                                                <th class="table-header-repeat line-left minwidth-1"><a href="">Description</a></th>
-                                                <th class="table-header-repeat line-left"><a href="">Status</a></th>
-                                                <th class="table-header-repeat line-left"><a href="">Download File</a></th>
-                                                <th class="table-header-repeat line-left"><a href="">Options</a></th>
+                                                <th class="table-header-repeat line-left "><a href="">Date</a>	</th>
+                                                <th class="table-header-repeat line-left minwidth-2"><a href="">Description</a></th>
+                                                <th class="table-header-repeat line-left "><a href="">Status</a></th>
+                                                <th class="table-header-repeat line-left "><a href="">Download File</a></th>
+                                                <th class="table-header-repeat line-left "><a href="">Options</a></th>
                                             </tr>
                                             @foreach($notices as $notice)
                                                 <tr>
@@ -54,7 +54,7 @@
                                                 <td>Unpublished</td>
                                                 @endif
                                                 <td><a href="../../{{ $notice->file_path }}">Download</a></td>
-                                                <td class="options-width">
+                                                <td>
                                                     <a href="{{ URL::to('notice/'.$notice->id.'/edit') }}" title="Edit" class="icon-1 info-tooltip"></a>
                                                     <a href="{{ URL::route('notice.destroy', $notice -> id) }}" data-method="delete" title="Delete" class="icon-2 info-tooltip"></a>
                                                 </td>
