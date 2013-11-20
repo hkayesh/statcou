@@ -71,7 +71,7 @@
                                             </tr>
                                             @foreach($newsList as $news)
                                                 <tr>
-                                                <td>{{ $news->created_at }}</td>
+                                                <td>{{ date("d-m-Y", strtotime($news->created_at)) }}</td>
                                                 <td>{{ $news->description }}</td>
                                                 @if($news->status) 
                                                 <td>Published</td>

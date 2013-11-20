@@ -46,7 +46,7 @@
                                             </tr>
                                             @foreach($notices as $notice)
                                                 <tr>
-                                                <td>{{ $notice->created_at }}</td>
+                                                <td>{{ date("d-m-Y", strtotime($notice->created_at)) }}</td>
                                                 <td>{{ $notice->description }}</td>
                                                 @if($notice->status) 
                                                 <td>Published</td>

@@ -71,7 +71,7 @@
                                     </tr>
                                     @foreach($results as $result)
                                         <tr>
-                                        <td>{{ $result->created_at }}</td>
+                                        <td>{{ date("d-m-Y", strtotime($result->created_at)) }}</td>
                                         <td>{{ $result->description }}</td>
                                         @if($result->status)
                                         <td>Published</td>

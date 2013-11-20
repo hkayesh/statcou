@@ -71,7 +71,7 @@
                                             </tr>
                                             @foreach($downloads as $download)
                                                 <tr>
-                                                <td>{{ $download->created_at }}</td>
+                                                <td>{{ date("d-m-Y", strtotime($download->created_at)) }}</td>
                                                 <td>{{ $download->description }}</td>
                                                 @if($download->status) 
                                                 <td>Published</td>
