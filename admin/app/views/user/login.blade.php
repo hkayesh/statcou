@@ -18,7 +18,8 @@
             });
         </script>
     </head>
-    <body id="login-bg"> 
+    <body id="login-bg">
+    <div class="login-text">Admin Panel</div>
 
         <!-- Start: login-holder -->
         <div id="login-holder">
