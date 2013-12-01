@@ -34,7 +34,7 @@
                         </p>
                         <div class="clear"></div>
                         <div class="info">
-                            <span class="lastupdte"> Last Update by:<i>Tue, 26/01/11</i></span>  
+                            <span class="lastupdte"> Last Update:<i> Sun, 01/12/13</i></span>
                             <a class="moreinfo" href="cv/Md_Mijanur_Rahman.pdf" target="_blank">:: Moreinfo</a>
                         </div>
                     </div>
@@ -43,7 +43,7 @@
                 <li>
                     <div class="thumb"><img src="images/Tareq.jpg"  alt="" /></div>
                     <div class="description">
-                        <h6><a href="cv/Md_Mijanur_Rahman.pdf" class="colr" target="_blank">Md. Tareq Ferdous Khan</a></h6>
+                        <h6><a href="javascript:void(0)" class="colr" target="_blank">Md. Tareq Ferdous Khan</a></h6>
                         <p>
                             Assistant Professor<br>
                             MS (JU)<br>
@@ -52,8 +52,8 @@
                         </p>
                         <div class="clear"></div>
                         <div class="info">
-                            <span class="lastupdte"> Last Update by:<i>Tue, 26/01/11</i></span>  
-                            <a class="moreinfo" href="cv/Md_Mijanur_Rahman.pdf" target="_blank">:: Moreinfo</a>
+                            <span class="lastupdte"> Last Update:<i> Sun, 01/12/13</i></span>
+                            <a class="moreinfo" href="javascript:void(0)" target="_blank">:: Moreinfo</a>
                         </div>
                     </div>
                     <div class="clear"></div>
@@ -61,7 +61,7 @@
                 <li>
                     <div class="thumb"><img src="images/dulal_chandra.jpg"  alt="" /></div>
                     <div class="description">
-                        <h6><a href="cv/Md_Mijanur_Rahman.pdf" class="colr" target="_blank">Dulal Chandra Nandi</a></h6>
+                        <h6><a href="javascript:void(0)" class="colr" target="_blank">Dulal Chandra Nandi</a></h6>
                         <p>
                             Assistant Professor<br>
                             M. Sc (CU)<br>
@@ -70,8 +70,8 @@
                         </p>
                         <div class="clear"></div>
                         <div class="info">
-                            <span class="lastupdte"> Last Update by:<i>Tue, 26/01/11</i></span>
-                            <a class="moreinfo" href="cv/Md_Mijanur_Rahman.pdf" target="_blank">:: Moreinfo</a>
+                            <span class="lastupdte"> Last Update:<i> Sun, 01/12/13</i></span>
+                            <a class="moreinfo" href="javascript:void(0)" target="_blank">:: Moreinfo</a>
                         </div>
                     </div>
                     <div class="clear"></div>
@@ -87,7 +87,7 @@
                         </p>
                         <div class="clear"></div>
                         <div class="info">
-                            <span class="lastupdte"> Last Update by:<i>Tue, 26/01/11</i></span>  
+                            <span class="lastupdte"> Last Update:<i> Sun, 01/12/13</i></span>
                             <a class="moreinfo" href="cv/adeeb_salman_chowdury.pdf" target="_blank">:: Moreinfo</a>
                         </div>
                     </div>
@@ -104,7 +104,7 @@
                         </p>
                         <div class="clear"></div>
                         <div class="info">
-                            <span class="lastupdte"> Last Update by:<i>Tue, 26/01/11</i></span>  
+                            <span class="lastupdte"> Last Update:<i> Sun, 01/12/13</i></span>
                             <a class="moreinfo" href="cv/Humayun Kiser.pdf" target="_blank">:: Moreinfo</a>
                         </div>
                     </div>
@@ -113,7 +113,7 @@
                 <li class="last">
                     <div class="thumb"><img src="images/sohel.jpg"  alt="" /></div>
                     <div class="description">
-                        <h6><a href="cv/Humayun Kiser.pdf" class="colr" target="_blank">Md. Sohel Rana</a></h6>
+                        <h6><a href="javascript:void(0)" class="colr" target="_blank">Md. Sohel Rana</a></h6>
                         <p> Lecturer<br>
                         MS (JU)<br>
                         <b>Area of interest:</b> Probability & Distribution, Regression Analysis, Econometrics, Structural Equation Modelling(SEM), Sample Survey, Statistical Quality Control, Measure Theory<br>
@@ -121,8 +121,8 @@
                         </p>
                         <div class="clear"></div>
                         <div class="info">
-                            <span class="lastupdte"> Last Update by:<i>Tue, 21/11/13</i></span>
-                            <a class="moreinfo" href="cv/Humayun Kiser.pdf" target="_blank">:: Moreinfo</a>
+                            <span class="lastupdte"> Last Update:<i> Sun, 01/12/13</i></span>
+                            <a class="moreinfo" href="javascript:void(0)" target="_blank">:: Moreinfo</a>
                         </div>
                     </div>
                     <div class="clear"></div>

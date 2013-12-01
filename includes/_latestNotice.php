@@ -14,7 +14,6 @@
     } else {
         $dateTime = date('d-m-Y');
         $created_at = $dateTime;
-        echo $created_at;
         $description = 'There is no published notice';
         $filePath = '#';
     }
