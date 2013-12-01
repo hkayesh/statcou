@@ -93,18 +93,35 @@
                     </div>
                     <div class="clear"></div>
                 </li>
-                <li class="last">
+                <li>
                     <div class="thumb"><img src="images/Humayun.jpg"  alt="" /></div>
                     <div class="description">
                         <h6><a href="cv/Humayun Kiser.pdf" class="colr" target="_blank">Humayun Kiser</a></h6>
                         <p> Lecturer<br>
                         MS (JU)<br>
-                        <b>Area of interest:</b>  <br>
+                        <b>Area of interest:</b> Probability & Distribution, Regression Analysis, Econometrics, Time Series Analysis, Sample Survey, course related to Statistical Software (SPSS, R, STATA, SAS) <br>
                         <b>Contect:</b> Email: humayun_kiser@yahoo.com Mobile: 88 01913 440 215
                         </p>
                         <div class="clear"></div>
                         <div class="info">
                             <span class="lastupdte"> Last Update by:<i>Tue, 26/01/11</i></span>  
+                            <a class="moreinfo" href="cv/Humayun Kiser.pdf" target="_blank">:: Moreinfo</a>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </li>
+                <li class="last">
+                    <div class="thumb"><img src="images/sohel.jpg"  alt="" /></div>
+                    <div class="description">
+                        <h6><a href="cv/Humayun Kiser.pdf" class="colr" target="_blank">Md. Sohel Rana</a></h6>
+                        <p> Lecturer<br>
+                        MS (JU)<br>
+                        <b>Area of interest:</b> Probability & Distribution, Regression Analysis, Econometrics, Structural Equation Modelling(SEM), Sample Survey, Statistical Quality Control, Measure Theory<br>
+                        <b>Contect:</b> Email: sohel.573@gmail.com Mobile: 88 01913 440 181
+                        </p>
+                        <div class="clear"></div>
+                        <div class="info">
+                            <span class="lastupdte"> Last Update by:<i>Tue, 21/11/13</i></span>
                             <a class="moreinfo" href="cv/Humayun Kiser.pdf" target="_blank">:: Moreinfo</a>
                         </div>
                     </div>

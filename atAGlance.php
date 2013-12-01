@@ -5,7 +5,7 @@
             $( ".selected" ).attr( "class", "" );
             $("a:contains('About Us')").attr("class", "selected");
       });
-    </script>
+</script>
 <!-- Content Seciton -->
 <div id="content_section">
     <!-- News Updates -->

@@ -67,7 +67,7 @@
                     <div class="navigation">
                         <div id="smoothmenu1" class="ddsmoothmenu">
                             <ul>
-                                <li class="first"><a class="selected" href="index.php">Home</a></li>
+                                <li class="first"><a href="index.php">Home</a></li>
                                 <li><a href="atAGlance.php">About Us</a>
                                     <ul>
                                         <li><a href="atAGlance.php">At a Glance</a></li>

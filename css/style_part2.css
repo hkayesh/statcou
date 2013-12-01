@@ -880,6 +880,8 @@ ul.advance_option li.selected a {
 	float:left;
 }
 .college_gallery ul li .thumb img {
+    width:40px;
+    height:40px;
 	border: solid 1px #d5d5d5;
 }
 .college_gallery ul li .description {

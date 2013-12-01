@@ -7,6 +7,7 @@ include_once 'includes/_header.php';
             document.title = 'Gallery | Statistics Dept. of COU';
             $( ".selected" ).attr( "class", "" );
             $("a:contains('Gallery')").attr("class", "selected");
+            $("#tabname1").addClass("selected");
       });
       
     function showGallery(tab_id) {

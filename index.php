@@ -3,11 +3,10 @@
 <script type="text/javascript">
       $(document).ready(function() {
             document.title = 'Home | Statistics Dept. of COU';
-      });
-      
-    $(document).ready(function(){
-                $(".banner_des").css("background-color","rgba(67,59,61,0.5)");
-            });
+      $( ".selected" ).attr( "class", "" );
+      $("a:contains('Home')").attr("class", "selected");
+      $(".banner_des").css("background-color","rgba(67,59,61,0.5)");
+    });
 </script>
 <div id="content_section">
     <!-- News Updates -->

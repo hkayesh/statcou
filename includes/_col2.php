@@ -39,31 +39,17 @@
             <h5>Top Students</h5>
             <ul>
                 <li>
-                    <div class="thumb" ><a href="javascript:void(0)"><img src="images/student1.jpg"  alt="" /></a></div> 
+                    <div class="thumb" ><a href="javascript:void(0)"><img src="images/kangkan.jpg"  alt="" /></a></div>
                     <div class="description">
-                        <h6><a href="javascript:void(0)">Alim ul Gias</a></h6>
-                        <p><a href="javascript:void(0)" class="gray" ><em>Final year, 1st Batch</em></a></p>
+                        <h6><a href="javascript:void(0)">Kangkan Acharjee</a></h6>
+                        <p><a href="javascript:void(0)" class="gray" ><em>Third year, 1st Batch</em></a></p>
                     </div> 
                 </li>
                 <li>
-                    <div class="thumb" ><a href="javascript:void(0)"><img src="images/student2.jpg"  alt="" /></a></div> 
+                    <div class="thumb" ><a href="javascript:void(0)"><img src="images/kulsuma.jpg"  alt="" /></a></div>
                     <div class="description">
-                        <h6><a href="javascript:void(0)">Rayhanur Rahman</a></h6>
-                        <p><a href="javascript:void(0)" class="gray"><em>3rd year, 2nd Batch</em></a></p>
-                    </div> 
-                </li>
-                <li>
-                    <div class="thumb" ><a href="javascript:void(0)"><img src="images/student3.jpg"  alt="" /></a></div> 
-                    <div class="description">
-                        <h6><a href="javascript:void(0)">Tajkia Toma</a></h6>
-                        <p><a href="javascript:void(0)" class="gray"><em>2nd year, 3rd Batch</em></a></p>
-                    </div> 
-                </li>
-                <li class="nobg" >
-                    <div class="thumb" ><a href="javascript:void(0)"><img src="images/student4.jpg"  alt="" /></a></div> 
-                    <div class="description">
-                        <h6><a href="javascript:void(0)">Asif Imran</a></h6>
-                        <p><a href="javascript:void(0)" class="gray"><em>1st Year, 4th Batch</em></a></p>
+                        <h6><a href="javascript:void(0)">Mst. Kulsuma Begum</a></h6>
+                        <p><a href="javascript:void(0)" class="gray"><em>2rd year, 2nd Batch</em></a></p>
                     </div> 
                 </li>
             </ul>
