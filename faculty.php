@@ -110,7 +110,7 @@
                     </div>
                     <div class="clear"></div>
                 </li>
-                <li class="last">
+                <li>
                     <div class="thumb"><img src="images/sohel.jpg"  alt="" /></div>
                     <div class="description">
                         <h6><a href="javascript:void(0)" class="colr" target="_blank">Md. Sohel Rana</a></h6>
@@ -123,6 +123,23 @@
                         <div class="info">
                             <span class="lastupdte"> Last Update:<i> Sun, 01/12/13</i></span>
                             <a class="moreinfo" href="javascript:void(0)" target="_blank">:: Moreinfo</a>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </li>
+                <li class="last">
+                    <div class="thumb"><img src="images/nahida.jpg"  alt="" /></div>
+                    <div class="description">
+                        <h6><a href="cv/Nahida_Afroz.pdf" class="colr" target="_blank">Nahida Afroz</a></h6>
+                        <p> Lecturer<br>
+                            MS (JU)<br>
+                            <b>Area of interest:</b><br>
+                            <b>Contect:</b> Email: nahidafrz@yahoo.com
+                        </p>
+                        <div class="clear"></div>
+                        <div class="info">
+                            <span class="lastupdte"> Last Update:<i> Thu, 30/01/14</i></span>
+                            <a class="moreinfo" href="cv/Nahida_Afroz.pdf" target="_blank">:: Moreinfo</a>
                         </div>
                     </div>
                     <div class="clear"></div>
