@@ -45,7 +45,7 @@
                     <div class="description">
                         <h6><a href="javascript:void(0)" class="colr" target="_blank">Dulal Chandra Nandi</a></h6>
                         <p>
-                            Chairman and Assistant Professor<br>
+                            Chairman(Acting and Assistant Professor<br>
                             M. Sc (CU)<br>
                             <b>Area of interest:</b> Biostatistics and Demography<br>
                             <b>Contact:</b> Email: mijancoubd@gmail.com Mobile: 88 01711 232 465
