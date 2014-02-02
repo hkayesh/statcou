@@ -27,7 +27,7 @@
                     <div class="thumb"><a href="#"><img src="images/mijan.jpg"  alt="" /></a></div>
                     <div class="description" >
                         <h6><a href="cv/Md_Mijanur_Rahman.pdf" class="colr" target="_blank">Md. Mijanur Rahman</a></h6>
-                        <p>Chairman (Acting) and Assistant Professor<br>
+                        <p>Assistant Professor<br>
                         M. Sc (RU)<br>
                             <b>Area of interest:</b> Survey Sampling, Biostatistics, Statistical Inference and Regression Analysis<br>
                             <b>Contact:</b> Email: mijancoubd@gmail.com Mobile: 88 01816 525 182
@@ -41,6 +41,24 @@
                     <div class="clear"></div>
                 </li>
                 <li>
+                    <div class="thumb"><img src="images/dulal_chandra.jpg"  alt="" /></div>
+                    <div class="description">
+                        <h6><a href="javascript:void(0)" class="colr" target="_blank">Dulal Chandra Nandi</a></h6>
+                        <p>
+                            Chairman and Assistant Professor<br>
+                            M. Sc (CU)<br>
+                            <b>Area of interest:</b> Biostatistics and Demography<br>
+                            <b>Contact:</b> Email: mijancoubd@gmail.com Mobile: 88 01711 232 465
+                        </p>
+                        <div class="clear"></div>
+                        <div class="info">
+                            <span class="lastupdte"> Last Update:<i> Sun, 02/02/14</i></span>
+                            <a class="moreinfo" href="javascript:void(0)" target="_blank">:: Moreinfo</a>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </li>
+                <li>
                     <div class="thumb"><img src="images/Tareq.jpg"  alt="" /></div>
                     <div class="description">
                         <h6><a href="javascript:void(0)" class="colr" target="_blank">Md. Tareq Ferdous Khan</a></h6>
@@ -49,24 +67,6 @@
                             MS (JU)<br>
                             <b>Area of interest:</b> Econometrics, Categorical Data Analysis, Statistical Modeling, Time Series Analysis, Statistical Inference, Stochastic Process, Multivariate Analysis and Simulation<br>
                             <b>Contact:</b> Email: mijancoubd@gmail.com Mobile: 88 01833 351 695
-                        </p>
-                        <div class="clear"></div>
-                        <div class="info">
-                            <span class="lastupdte"> Last Update:<i> Sun, 01/12/13</i></span>
-                            <a class="moreinfo" href="javascript:void(0)" target="_blank">:: Moreinfo</a>
-                        </div>
-                    </div>
-                    <div class="clear"></div>
-                </li>
-                <li>
-                    <div class="thumb"><img src="images/dulal_chandra.jpg"  alt="" /></div>
-                    <div class="description">
-                        <h6><a href="javascript:void(0)" class="colr" target="_blank">Dulal Chandra Nandi</a></h6>
-                        <p>
-                            Assistant Professor<br>
-                            M. Sc (CU)<br>
-                            <b>Area of interest:</b> Biostatistics and Demography<br>
-                            <b>Contact:</b> Email: mijancoubd@gmail.com Mobile: 88 01711 232 465
                         </p>
                         <div class="clear"></div>
                         <div class="info">
