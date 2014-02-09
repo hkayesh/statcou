@@ -30,7 +30,7 @@
                         <p>Assistant Professor<br>
                         M. Sc (RU)<br>
                             <b>Area of interest:</b> Survey Sampling, Biostatistics, Statistical Inference and Regression Analysis<br>
-                            <b>Contact:</b> Email: mijancoubd@gmail.com Mobile: 88 01816 525 182
+                            <b>Contact:</b> Email: mijancoubd@gmail.com Mobile: 88 01816 525 182<br><br>
                         </p>
                         <div class="clear"></div>
                         <div class="info">
@@ -48,11 +48,11 @@
                             Chairman(Acting) and Assistant Professor<br>
                             M. Sc (CU)<br>
                             <b>Area of interest:</b> Biostatistics and Demography<br>
-                            <b>Contact:</b> Email: mijancoubd@gmail.com Mobile: 88 01711 232 465
+                            <b>Contact:</b> Mobile: 88 01711 232 465<br><br>
                         </p>
                         <div class="clear"></div>
                         <div class="info">
-                            <span class="lastupdte"> Last Update:<i> Sun, 02/02/14</i></span>
+                            <span class="lastupdte"> Last Update:<i> Tu, 18/03/14</i></span>
                             <a class="moreinfo" href="javascript:void(0)" target="_blank">:: Moreinfo</a>
                         </div>
                     </div>
@@ -66,7 +66,7 @@
                             Assistant Professor<br>
                             MS (JU)<br>
                             <b>Area of interest:</b> Econometrics, Categorical Data Analysis, Statistical Modeling, Time Series Analysis, Statistical Inference, Stochastic Process, Multivariate Analysis and Simulation<br>
-                            <b>Contact:</b> Email: mijancoubd@gmail.com Mobile: 88 01833 351 695
+                            <b>Contact:</b> Mobile: 88 01833 351 695<br>
                         </p>
                         <div class="clear"></div>
                         <div class="info">
@@ -133,7 +133,7 @@
                         <h6><a href="cv/Nahida_Afroz.pdf" class="colr" target="_blank">Nahida Afroz</a></h6>
                         <p> Lecturer<br>
                             MS (JU)<br>
-                            <b>Area of interest:</b><br>
+                            <b>Area of interest:</b> Econometrics, Time Series Analysis, Multivariate Analysis, Probability, Design of Experiment and Demography                            <br>
                             <b>Contect:</b> Email: nahidafrz@yahoo.com
                         </p>
                         <div class="clear"></div>
